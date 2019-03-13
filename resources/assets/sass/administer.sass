@@ -1,0 +1,70 @@
+@import "./config/_general"
+
+*
+  outline: 0 !important
+  font-family: $font
+  font-size: .85rem
+  transition: .4s !important
+
+a, h1, h2, h3, h4, h5, h6, p, label, span, div, small, li, ul, ol, input, textarea, button
+  font-family: $font
+
+a
+  text-decoration: none !important  
+
+.container-all
+  background: #fff
+  padding: 1rem
+  margin-bottom: 1rem
+  margin-top: 1rem
+  box-shadow: $shadow
+  // max-height: 33rem
+
+i[class*='icon-']
+  transform: translateY(0px) !important
+
+div[class*='el-input-'], div[class='el-select']
+  width: 100% !important
+  font-size: 0.85rem
+
+.el-form-item__label
+  margin-bottom: -0.5rem
+  font-weight: 600
+  color: $color-color_text_dark
+  font-size: 0.85rem
+
+.btn
+  padding-left: 3rem !important
+  padding-right: 3rem !important
+  cursor: pointer !important
+  border-radius: 15rem !important
+  outline: none !important
+  &:hover
+    transition: .4s
+    box-shadow: $shadow-strong
+
+.btn.btn-primary
+  background-color: $color-primary !important
+  color: $color-white !important
+  border-color: $color-primary !important
+
+.btn.btn-default
+  background-color: transparent !important
+  color: $color-primary !important
+  border-color: $color-primary !important
+
+.buttoner
+  margin-top: 1rem
+
+.btn-small
+  font-size: .8rem !important
+
+.bg-red
+  background: $color-red
+
+.form-control
+  border-radius: $border_radius_lightest !important
+
+.display-none
+  transition: .4s
+  display: none

@@ -1,0 +1,10 @@
+{
+    "/js/dashboard.min.js": "/js/dashboard.min.js",
+    "/css/dashboard.min.css": "/css/dashboard.min.css",
+    "/css/home.min.css": "/css/home.min.css",
+    "/css/password_recovery.min.css": "/css/password_recovery.min.css",
+    "/css/access.min.css": "/css/access.min.css",
+    "/js/password_recovery.min.js": "/js/password_recovery.min.js",
+    "/js/access.min.js": "/js/access.min.js",
+    "/js/home.min.js": "/js/home.min.js"
+}

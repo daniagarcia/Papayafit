@@ -1,0 +1,20 @@
+@import "../../../../../sass/config/_variables"
+
+li
+  ul.collapse
+    a
+      border-left: 2px solid $color-primary_dark
+      font-size: .8rem !important
+
+.side-navbar li a:focus, .side-navbar li a:hover, .side-navbar li a[aria-expanded="true"]
+  background: $color-primary_dark !important
+
+.side-navbar li a[data-toggle="collapse"]::before
+  content: ''
+
+.dropdown-list
+  li
+    a
+      background: $color-black-mate !important
+      &:hover
+        background: $color-black-mate !important
