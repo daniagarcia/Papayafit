@@ -13,11 +13,13 @@
     <link rel="shortcut icon" href="/assets/images/logos/istotipo_512_512.png">
 
     <link rel="stylesheet" href="/css/dashboard.min.css?{{rand()}}">
+    <link rel="stylesheet" href="/css/landingpapaya.min.css">
+
 
     <title>Administrador</title>
   </head>
   <body>
-
+<h1></h1>
     <audio id="sound-success" src="/assets/sounds/success.mp3"></audio>
     <audio id="sound-error" src="/assets/sounds/success.mp3"></audio>
     <audio id="sound-info" src="/assets/sounds/success.mp3"></audio>
