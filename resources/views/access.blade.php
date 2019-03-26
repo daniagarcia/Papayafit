@@ -1,5 +1,5 @@
 @extends('templates.landing')
-<!-- @extends('templates.nosotros') -->
+
 @section('meta')
   <meta name="Title" content="">
   <meta name="keywords" content="your, tags"/>

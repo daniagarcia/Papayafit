@@ -70,118 +70,116 @@
               </nav>
               <br><br><br><br>    <br><br><br><br>
 
-              <div class="blog" style="height: 35rem;"><br><br><br><br><br><br>
-                  <div style="padding-left:9rem;">
-                      <strong style="font-size: 4rem; color: #fff;">Noticia Destacada</strong><br>
-                      <strong style="font-size: 4rem;color: #fff;">en el blog</strong>    
-                  </div>
-                 <div style="text-align: justify;padding-left:9rem; width: 50rem; ">
-                   <p style="font-size: 20px;">
-                      lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                   </p>
-                   <div  class="row" style="padding-left:1rem;">
-                     <h2 style="color:#fff;">Leer artículo <br> </h2><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
-                   </div>
-                 </div>
+<div class="blog" style="height: 35rem;"><br><br><br><br><br><br>
+    <div style="padding-left:9rem;">
+        <strong style="font-size: 4rem; color: #fff;">Noticia Destacada</strong><br>
+        <strong style="font-size: 4rem;color: #fff;">en el blog</strong>    
+    </div>
+   <div style="text-align: justify;padding-left:9rem; width: 50rem; ">
+     <p style="font-size: 20px;">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+     </p>
+     <div  class="row" style="padding-left:1rem;">
+       <h2 style="color:#fff;">Leer artículo <br> </h2><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
+     </div>
+   </div>
 
-              </div><br><br><br>    
-              <div style="margin-left: 10rem;">
-              <ul class="row">
-                  <!-- <li class=""> -->
-                      <a class="" href="#"><br></a>   
-                    <!-- </li> -->
-                    <!-- <li class=""> -->
-                      <a class="" href="nosotros"><strong>Categoría <br></strong></a>
-                    <!-- </li> -->
-                    <!-- <li class=""> -->
-                      <a class="" href="#">|<br></a>
-                    <!-- </li> -->
-                    <!-- <li class=""> -->
-                      <a class="" href="#"><strong>Categoría <br></strong></a>
-                    <!-- </li> -->
-                    <!-- <li class=""> -->
-                      <a class="" href="#">| <br></a>
-                    <!-- </li> -->
-                    <a class="" href="#"><strong>Categoría <br></strong></a>
-                  </ul>
-              </div>
-              
+</div><br><br><br>    
+<div style="margin-left: 10rem;">
+<ul class="row">
+    <!-- <li class=""> -->
+        <a class="" href="#"><br></a>   
+      <!-- </li> -->
+      <!-- <li class=""> -->
+        <a class="" href="nosotros"><strong>Categoría <br></strong></a>
+      <!-- </li> -->
+      <!-- <li class=""> -->
+        <a class="" href="#">|<br></a>
+      <!-- </li> -->
+      <!-- <li class=""> -->
+        <a class="" href="#"><strong>Categoría <br></strong></a>
+      <!-- </li> -->
+      <!-- <li class=""> -->
+        <a class="" href="#">| <br></a>
+      <!-- </li> -->
+      <a class="" href="#"><strong>Categoría <br></strong></a>
+    </ul>
+</div>
 
-               <div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
-                  <h1>Lorem ipsum</h1>
-                <div class="float-left">
-                  <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria">
-                  <div style="width: 40rem;">
-                      <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                  </div>
-                </div>
-                <div class="float-right" style="text-align: justify;">
-                    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria">
-                    <div style="width: 40rem;">
-                        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                    </div><br> <br>
-                    <div style="margin-left: 30rem;">
-                        <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
-                      </div>
-                   
-                    </div>
-                   
+
+ <div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
+    <h1>Lorem ipsum</h1>
+  <div class="float-left">
+    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria">
+    <div style="width: 40rem;">
+        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+    </div>
+  </div>
+  <div class="float-right" style="text-align: justify;">
+      <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria">
+      <div style="width: 40rem;">
+          <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+      </div><br> <br>
+      <div style="margin-left: 30rem;">
+          <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
+        </div>
+     
+      </div>
+     
+
+</div>
+<div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
+    <h1>Lorem ipsum</h1>
+  <div class="float-left">
+    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br><br>
+    <div style="width: 40rem;">
+        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+    </div>
+  </div>
+  <div class="float-right" style="text-align: justify;">
+      <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br>
+      <div style="width: 40rem;">
+          <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+      </div> <br> <br>
+      <div style="margin-left: 30rem;">
+          <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
+        </div>
+     
+      </div>
+
+</div>
+
+<div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
+    <h1>Lorem ipsum</h1>
+  <div class="float-left">
+    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br><br>
+    <div style="width: 40rem;">
+        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+    </div>
+  </div>
+  <div class="float-right" style="text-align: justify;">
+      <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br>
+      <div style="width: 40rem;">
+          <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
+      </div> <br> <br>
+      <div style="margin-left: 30rem;">
+          <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
+        </div>
+     
+      </div>
+
+</div>
+
+
     
-              </div>
-              <div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
-                  <h1>Lorem ipsum</h1>
-                <div class="float-left">
-                  <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br><br>
-                  <div style="width: 40rem;">
-                      <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                  </div>
-                </div>
-                <div class="float-right" style="text-align: justify;">
-                    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br>
-                    <div style="width: 40rem;">
-                        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                    </div> <br> <br>
-                    <div style="margin-left: 30rem;">
-                        <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
-                      </div>
-                   
-                    </div>
-    
-              </div>
-
-              <div class="clearfix" style="margin-left: 8rem; margin-right: 5rem;">
-                  <h1>Lorem ipsum</h1>
-                <div class="float-left">
-                  <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br><br>
-                  <div style="width: 40rem;">
-                      <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                  </div>
-                </div>
-                <div class="float-right" style="text-align: justify;">
-                    <img src="/assets/Assets Papaya Fit/Blog Art Muestra.png" alt="" class="categoria"><br>
-                    <div style="width: 40rem;">
-                        <strong style="color: #f6a60e; font-size: 15px;">Post blog</strong>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere minus id, sapiente libero debitis iste dolore ducimus rerum amet, quae facilis possimus voluptatibus voluptates, non commodi totam veniam laborum.</p>
-                    </div> <br> <br>
-                    <div style="margin-left: 30rem;">
-                        <h4 style="color:#f6a60e;">Leer artículo -><br> </h4 ><img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt="">
-                      </div>
-                   
-                    </div>
-    
-              </div>
 
 
-
-              <!-- <div class="bg-info clearfix">
-                <button class="btn btn-secondary float-left">Example Button floated left</button>
-                <button class="btn btn-secondary float-right">Example Button floated right</button>
-              </div> -->
     <footer style="background-color:#fff;" class="imagenfooter clearfix">
           
           <div  class="float-left">
@@ -224,3 +222,8 @@
      
 </body>
 </html>
+
+            
+
+
+   

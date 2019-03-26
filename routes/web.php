@@ -38,3 +38,6 @@ Route::get('/blog', function(){
 Route::get('/quiz', function(){
     return view('templates.quiz');
 });
+Route::get('/comenzar', function(){
+    return view('templates.comenzar');
+});

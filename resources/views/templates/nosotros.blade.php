@@ -25,7 +25,7 @@
 
 @endsection
         
-    <title>Nosotros</title>
+    <title>Blog</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #fff;"> 
@@ -68,83 +68,73 @@
                   </form>
                 </div>
               </nav>
+    
               <br><br><br><br>    <br><br><br><br>    <br><br><br><br>
 
-              <div class="clearfix">
-                    <img src="/assets/Assets Papaya Fit/Steak rec.png" alt="" class="steak">
-                    <!-- <button class="btn btn-secondary float-left">Example Button floated left</button> -->
-                    <div class="float-left" style="margin-left:5rem;">
-                        <h1>El mejor plan alimenticio</h1>
-                        <h1>100% hecho para ti</h1><br><br>
-                        <div style="text-align: justify; width: 400px;">
-                                <strong style="font-size: 18px; color:#f6a60e;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
-                                </strong>
-                                <br><br>
-                                <h5>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                </h5><br><br>
+<div class="clearfix">
+      <img src="/assets/Assets Papaya Fit/Steak rec.png" alt="" class="steak">
+      <!-- <button class="btn btn-secondary float-left">Example Button floated left</button> -->
+      <div class="float-left" style="margin-left:5rem;">
+          <h1>El mejor plan alimenticio</h1>
+          <h1>100% hecho para ti</h1><br><br>
+          <div style="text-align: justify; width: 400px;">
+                  <strong style="font-size: 18px; color:#f6a60e;">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                  </strong>
+                  <br><br>
+                  <h5>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                  </h5><br><br>
 
-                                <div class="textofondo2">              
-                                        <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Más de 15 menús mensuales </h4>
-                                        <h4 style="padding-left:50px;">100% perzonalizados</h4><br>
-                                        <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Se ajusta a todo tipo de rutinas </h4>
-                                        <h4 style="padding-left:50px;">y estilos de vida</h4><br>
-                                        <h4><img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Sin necesitar de calendarización</h4><br>
-                                        <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt="">Seguimiento 24 hrs</h4>
-                                      </div> 
+                  <div class="textofondo2">              
+                          <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Más de 15 menús mensuales </h4>
+                          <h4 style="padding-left:50px;">100% perzonalizados</h4><br>
+                          <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Se ajusta a todo tipo de rutinas </h4>
+                          <h4 style="padding-left:50px;">y estilos de vida</h4><br>
+                          <h4><img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt=""> Sin necesitar de calendarización</h4><br>
+                          <h4> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono"alt="">Seguimiento 24 hrs</h4>
+                        </div> 
 
-                        </div>
-                    
-                    </div>
-                  </div>
+          </div>
+      
+      </div>
+    </div>
 
-                  <div class="row col-12" style="padding-left:60px;">           
-                        <div class="divnutri sombra">          
-                        <img style="border-radius: 13px; width: 23rem; height: 25rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-                          <h3 style="text-align:center;font-size: 20px; color:#f6a60e"> <strong>Dr.Nombre Apellido</strong> </h3>
-                          <p style="text-align:center; color:#000000;">Nutriólogo General</p>
-                          <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</p>
-                        </div>         
-                        <div class="divnutri sombra">
-                          <img style="border-radius: 13px; width: 23rem; height: 25rem;"  src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-                          <h3 style="text-align:center; font-size: 20px; color:#000000"><strong>Dr.Nombre Apellido</strong> </h3>
-                          <p style="text-align:center; color:#f6a60e;">Veterinaria</p>
-                          <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
-                              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>  
-                        </div>
-                        <div class="divnutri sombra">
-                            <img style="border-radius: 13px; width: 23rem; height: 25rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-                            <h3 style="text-align:center;font-size: 20px; color:#000000"> <strong>Dr.Nombre Apellido</strong> </h3>
-                            <p style="text-align:center; color:#f6a60e;">Abogado Fiscal</p>
-                            <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>    
-                        </div>
-                      </div>
-                      
-    <!-- <div class="">
-        <div>
-                <div style="float: left;">
-                <img src="/assets/Assets Papaya Fit/Steak.png" alt="" class="steak">
-
-                        <h1>HOLAAAAA</h1>
-                    </div>
+    <div class="row col-12" style="padding-left:60px;">           
+          <div class="divnutri sombra">          
+          <img style="border-radius: 13px; width: 23rem; height: 25rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
+            <h3 style="text-align:center;font-size: 20px; color:#f6a60e"> <strong>Dr.Nombre Apellido</strong> </h3>
+            <p style="text-align:center; color:#000000;">Nutriólogo General</p>
+            <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
+              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur 
+              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+              adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</p>
+          </div>         
+          <div class="divnutri sombra">
+            <img style="border-radius: 13px; width: 23rem; height: 25rem;"  src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
+            <h3 style="text-align:center; font-size: 20px; color:#000000"><strong>Dr.Nombre Apellido</strong> </h3>
+            <p style="text-align:center; color:#f6a60e;">Veterinaria</p>
+            <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>  
+          </div>
+          <div class="divnutri sombra">
+              <img style="border-radius: 13px; width: 23rem; height: 25rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
+              <h3 style="text-align:center;font-size: 20px; color:#000000"> <strong>Dr.Nombre Apellido</strong> </h3>
+              <p style="text-align:center; color:#f6a60e;">Abogado Fiscal</p>
+              <p style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>    
+          </div>
         </div>
         
-    </div> -->
+
+
 
     <footer style="background-color:#fff;" class="imagenfooter clearfix">
-            <!-- <div class="bg-info clearfix">
-                <button type="button" class="btn btn-secondary ">Example Button floated left</button>
-                <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
-              </div> -->
+          
           <div  class="float-left">
             <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="" class="papayalogofooter">
           </div><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
@@ -173,9 +163,9 @@
         <div style=" margin-top: 2rem;">
             <small style="margin-left: 17rem; color: #fff;">
                 @PapayaFit, 2019, Todos los derechos reservados
-                <!-- <a href="" class="link-powered">
+                <a href="" class="link-powered">
                   Supernova Apps
-                </a> -->
+                </a> 
               </small>
     
         </div>
@@ -185,3 +175,4 @@
      
 </body>
 </html>
+              
