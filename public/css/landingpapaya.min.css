@@ -7,6 +7,39 @@
     border-radius: 1rem; 
     font-size: 15px;
   }
+  .divquiz{
+    /* color: #fff; */
+    /* background-color:#ff9d00; */
+    border-color:#ff9d00;
+    width: 450px;
+    height: 80px;
+    border-radius: 1rem; 
+    font-size: 15px;
+    border-style: solid;
+    
+   
+  }
+  .divquiz:hover {
+    background-color: #ff9d00;
+    /* color: #fff; */
+  }
+  .divsexo{
+    /* color: #fff; */
+    /* background-color:#ff9d00; */
+    border-color:#ff9d00;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem; 
+    font-size: 15px;
+    border-style: solid;
+   
+  }
+  .divsexo:hover{
+    background-color: #ff9d00;
+  }
+  /* .textoquiz{
+    font-size: 20px;
+  } */
   .btnnuevo{
     color: #fff;
     background-color:#1cb3c8;
@@ -72,13 +105,21 @@
     font-size: 60px;
     /* text-align:left; */
     color:#fbaf32;
-    line-height: 20pt;
+    line-height: 30pt;
    }
   
   .sombra{
     -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
     box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
     padding: 1rem;
+    border-radius: .5rem;
+    background: #fff;
+  }
+    
+  .sombraprecios{
+    -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+    box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+    /* padding: 1rem; */
     border-radius: .5rem;
     background: #fff;
   }
@@ -127,7 +168,7 @@
     /* width: 1300px;  */
   }
   .imagenfootercomenzar{
-    background-image: url("/assets/Assets Papaya Fit/Fondo Verdec.png");
+    background-image: url("/assets/Assets Papaya Fit/Group.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +194,7 @@
   .divnutri{
     width: 350px;
     height: 685px;
-    /* padding-left: 50px; */
+    padding-left: 30px;
     /* padding-right: 50px; */
     /* align-self: auto; */
     margin-left: 4rem;
@@ -209,6 +250,12 @@
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle.png');
  }
+ .headerquiz{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (1).png');
+ }
   .divlogo{
     height: 250px;
     width: 220px; 
@@ -236,6 +283,7 @@
 }
 .steak{
 float: right;
+width: 60rem;
 
 }
 .felcha{
@@ -246,7 +294,11 @@ float: right;
   width: 40rem;
   height: 25rem;
 }
+.sobre{
+  width: 30px;
+  height: 30px;;
 
+}
 
 * {
   box-sizing: border-box;
@@ -325,4 +377,3 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
-</style>

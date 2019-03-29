@@ -1,7 +1,6 @@
   
 <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffd261">
       <a class="navbar-brand" href="/">
-        <!-- <img src="/assets/" alt="Logotipo" class="img-fluid"> -->
         <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png"  alt="Logotipo" style="width: 60px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +33,7 @@
     </nav>
         
         
-      <!-- </div> -->
-    <!-- </div> -->
-
+  
     <footer style="background-color:#fff;" class="imagenfooter clearfix">
        
       <div  class="float-left">
