@@ -20,14 +20,14 @@
    
   }
   .divquiz:hover {
-    background-color: #ff9d00;
-    /* color: #fff; */
+    background-color: #ed8410;
+    color: #fff;
   }
   .divsexo{
     /* color: #fff; */
     /* background-color:#ff9d00; */
-    border-color:#ff9d00;
-    width: 250px;
+    border-color:#ed8410;
+    width: 280px;
     height: 200px;
     border-radius: 1rem; 
     font-size: 15px;
@@ -35,7 +35,7 @@
    
   }
   .divsexo:hover{
-    background-color: #ff9d00;
+    background-color: #ed8410;
   }
   /* .textoquiz{
     font-size: 20px;
@@ -175,6 +175,18 @@
     /* height: 500px; */
     /* width: 1300px;  */
   }
+  .fondores{
+    background-image: url("/assets/Assets Individuales Papaya Fit/Fondo Top.png");
+    /* background-repeat: no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    /* width: 100%; */
+  }
   .divcards{
     width: 400px;
     height: 500px;
@@ -198,6 +210,15 @@
     /* padding-right: 50px; */
     /* align-self: auto; */
     margin-left: 4rem;
+    /* align-items: center; */
+  }
+  .divnutri2{
+    width: 350px;
+    height: 685px;
+    padding-left: 30px;
+    /* padding-right: 50px; */
+    /* align-self: auto; */
+    margin-right: 14rem;
     /* align-items: center; */
   }
   .pantalla{
@@ -250,11 +271,41 @@
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle.png');
  }
- .headerquiz{
+ .headerquiz1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle (1).png');
+ }
+ .headerquiz2{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (2).png');
+ }
+ .headerquiz3{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (3).png');
+ }
+ .headerquiz4{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (4).png');
+ }
+ .headerquiz5{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (5).png');
+ }
+ .headerquiz6{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle (6).png');
  }
   .divlogo{
     height: 250px;
@@ -299,6 +350,11 @@ width: 60rem;
   height: 30px;;
 
 }
+.txtinput{
+ background-color: #eeeded;
+ border-radius: 14px;
+ width: 35rem;
+}
 
 * {
   box-sizing: border-box;
@@ -322,17 +378,17 @@ h1 {
 }
 
 input {
-  padding: 10px;
+  padding: 6px;
   width: 100%;
   font-size: 17px;
-  font-family: Raleway;
+  /* font-family: Raleway; */
   border: 1px solid #aaaaaa;
 }
 
 /* Mark input boxes that gets an error on validation: */
-input.invalid {
+/* input.invalid {
   background-color: #ffdddd;
-}
+} */
 
 /* Hide all steps by default: */
 .tab {
@@ -340,12 +396,12 @@ input.invalid {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #ff9d00;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: Raleway;
+  font-family: Raleway;   
   cursor: pointer;
 }
 
@@ -354,19 +410,21 @@ button:hover {
 }
 
 #prevBtn {
-  background-color: #bbbbbb;
+  background-color: #ff9d00;
 }
 
 /* Make circles that indicate the steps of the form: */
 .step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;  
-  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  margin: 22px 7px;
+  /* background-color: #bbbbbb; */
+  border: #e8b109;  
+  border-radius: 56%;
   display: inline-block;
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  border-style: solid;
+  border-width: thin;
 }
 
 .step.active {
@@ -375,5 +433,5 @@ button:hover {
 
 /* Mark the steps that are finished and valid: */
 .step.finish {
-  background-color: #4CAF50;
+  background-color: #ff9d00;
 }

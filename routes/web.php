@@ -41,3 +41,6 @@ Route::get('/quiz', function(){
 Route::get('/comenzar', function(){
     return view('templates.comenzar');
 });
+Route::get('/resultados', function(){
+    return view('templates.resultados');
+});

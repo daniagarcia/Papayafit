@@ -116,8 +116,9 @@
       <!-- </li> -->
       <a class="" href="#"><strong style=" font-size: 20px; color:#FF9D00">Categoría <br></strong></a>
     </ul>
-    <div class="float-right"
-      style="border-width:1px;border-radius:30px; border-color: #FF9D00; border-block-end-color: #FF9D00;border-style: solid; width: 500px; height: 40px;">
+    <div class="float-right">
+      <input  style="border-width:1px;border-radius:30px; border-color: #FF9D00; border-block-end-color: #FF9D00;border-style: solid; width: 500px; height: 40px;" type="text" name="" id="">
+      <img src="/assets/Assets Papaya Fit/magnifying-glass.png" alt="" style="margin-left: 1rem; width: 30px; height: 30px;margin-top: 4px">
       <!-- <input type="text" style="width: 400px; height: 30px;"> -->
     </div>
   </div>

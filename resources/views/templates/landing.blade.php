@@ -46,13 +46,13 @@
           <a class="nav-link texto" href="#">|</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" href="nosotros"><strong>Nosotros</strong></a>
+          <a class="nav-link texto" href="nosotros" style="color: #FF9D00"><strong>Nosotros</strong></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link texto" href="#">|</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" href="blog"><strong>Blog</strong></a>
+          <a class="nav-link texto" href="blog"style="color: #FF9D00"><strong>Blog</strong></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link texto" href="#">|</a>
@@ -93,22 +93,25 @@
       <h3 style="margin-left:4rem; color:#fff; font-size:18px;"><strong>Nosotros</strong><br></h3>
       <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>FAQ</strong> <br> </h3>
       <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>Blog</strong> </h3>
-
-
+     
       <div class="row float-right" style="padding-left: 8rem;">
+      <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
         <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
         <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt="">
+        <a href="" style="margin-left:3rem;"> <p>#PapayaFit</p></a>
+        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
       </div>
     </div>
     <div style="margin-left: 26rem; color: #fff;align-self: center;margin-top: 1px;">
       <p>__________________________________________________________</p>
     </div>
     <div class="row" style="margin-left:26rem;">
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;"> Seguridad</small>
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;">Aviso de Privacidad</small>
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;">Términos y Condiciones</small>
+      <small style=" margin-left:25px;font-size: 13px; color:#ed8410"> Seguridad</small>
+      <small style=" margin-left:25px;font-size: 13px; color:#ed8410">Aviso de Privacidad</small>
+      <small style=" margin-left:25px;font-size: 13px; color:#ed8410">Términos y Condiciones</small>
     </div>
+    <p style="color:#ed8410"> <img class="sobre" src="/assets/Assets Papaya Fit/sobre mail.png" alt="">
+        hola@papayafit.com</p>
 
     <div style=" margin-top: 2rem;">
       <small style="margin-left: 17rem; color: #fff;">

@@ -79,14 +79,14 @@
     <div class="row" style="margin-left: 26rem; align-self: center;">
 
       <div class="row float-right" style="padding-left: 8rem;">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
+        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
         <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt="">
+        <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
       </div>
       <!-- <img src="/assets/Assets Individuales Papaya Fit/Asian Mix.png" alt="" class="categoria"> -->
     </div>
 
-    <div style="">
+    <!-- <div style="">
       <small style="margin-left: 17rem; color: #fff;">
         @PapayaFit, 2019, Todos los derechos reservados
         <a href="" class="link-powered">
@@ -94,7 +94,7 @@
         </a>
       </small>
 
-    </div>
+    </div> -->
 
 
   </footer>
