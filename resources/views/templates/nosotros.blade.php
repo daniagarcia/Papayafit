@@ -1,4 +1,148 @@
-<!DOCTYPE html>
+@extends('templates.landing')
+
+@section('meta')
+<meta name="Title" content="">
+<meta name="keywords" content="your, tags" />
+<meta name="description" content="150 words" />
+{{-- Facebook --}}
+<meta property="og:type" content="website" />
+<meta property='og:url' content="{{ env('APP_URL') }}/[ruta]" />
+<meta property="og:title" content="TITULO DE LA PAGINA" />
+<meta property="og:description" content="BREVE DESCRIPCIÓN" />
+<meta property="og:image" content="URL DE IMAGEN CORRESPONDIENTE 1200px ANCHO X 630px ALTO" />
+@endsection
+
+@section('title')
+Nosotros
+@endsection
+
+@section('css')
+<link rel="stylesheet" href="/css/home.min.css">
+<link rel="stylesheet" href="/css/nosotros.min.css">
+@endsection
+
+@section('content')
+
+<div class="clearfix" style="padding-left:3rem;padding-top: 6rem;" id="cont2">
+  <img src="/assets/Assets Papaya Fit/Steak rec.png" alt="" class="steak">
+  <div class="float-left" style="margin-left:5rem;">
+    <strong style="font-size: 30px;">El mejor plan alimenticio</strong><br>
+    <strong style="font-size: 30px;">100% hecho para ti</strong><br><br>
+    <div style="text-align: justify; width: 400px;">
+      <div>
+        <strong style="font-size: 18px; color:#FF9D00;margin-left: 11rem;">Misión</strong>
+        <h5>
+          Papaya fit ofrece la mejor experiencia de bienestar a cada individuo brindando planes de alimentación
+          flexibles a estudiantes optimistas, maestros, trabajadores de oficina comprometidos, amas de casa creativas,
+          amantes del fitness, entre otros; para alcanzar objetivos de manera sencilla a bajo coste a través de sus
+          innovadoras soluciones. Además de promover el estilo de vida saludable y seguir en la renovación constante
+          hasta alcanzar la mejor versión de uno mismo. Brindar un servicio práctico de alta calidad y confiabilidad.
+        </h5>
+        <strong style="font-size: 18px; color:#FF9D00;margin-left:11rem;">Visión</strong>
+        <h5>
+          Ser la empresa numero 1 a nivel mundial en servicios de bienestar. Así como ser considerados por nuestros
+          clientes como una opción viable que ofrece soluciones y servicios basados principalmente en la practicidad,
+          creatividad, servicio y calidad que supere sus expectativas. Además de la practicidad y bajo coste
+          distinguiéndose de la competencia, de manera que su valor añadido sea extraordinario y único.
+        </h5>
+      </div>
+      <div style="padding-top: 4rem;">
+        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+          <h4 style="padding-left: 2rem; color:#FF9D00 ">Más de 15 menús mensuales</h4>
+        </div>
+        <h4 style="padding-left:4rem; color:#FF9D00 ">100% perzonalizados</h4><br>
+
+        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+          <h4 style="padding-left: 2rem; color:#FF9D00;">Se ajusta a todo tipo de rutinas</h4>
+        </div>
+        <h4 style="padding-left:4rem; color:#FF9D00">y estilos de vida</h4><br>
+
+        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+          <h4 style="padding-left: 2rem; color:#FF9D00;">Sin necesitar de calendarización</h4>
+        </div><br>
+
+        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+          <h4 style="padding-left: 2rem; color:#FF9D00 ">Seguimiento 24 hrs</h4>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="row" style="padding-left:60px; padding-top: 5rem;">
+  <div class="divnutri">
+    <img style="border-radius: 13px; width: 24rem; height: 27rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png"
+      alt="" class=""><br><br>
+    <strong style="font-size: 20px; color:#FF9D00">Dr.Nombre Apellido</strong><br>
+    <strong style="font-size: 15px; color:#696969; ">Nutriólogo General</strong>
+    <p style="text-align:justify; font-size: 15px; color: #696969; padding-top: 2rem;">Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</p>
+    <p style="color:#FF9D00"> <img class="sobre" src="/assets/Assets Papaya Fit/sobre mail.png" alt="">
+      hola@papayafit.com</p>
+  </div>
+
+  <div class="divnutri">
+    <img style="border-radius: 13px; width: 24rem; height: 27rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png"
+      alt="" class=""><br><br>
+    <strong style="font-size: 20px; color:#FF9D00">Dr.Nombre Apellido</strong><br>
+    <strong style="font-size: 15px; color:#696969; ">Nutriólogo General</strong>
+    <p style="text-align:justify; font-size: 15px; color: #696969; padding-top: 2rem;">Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</p>
+    <p style="color:#FF9D00"> <img class="sobre" src="/assets/Assets Papaya Fit/sobre mail.png" alt="">
+      hola@papayafit.com</p>
+  </div>
+
+  <div class="divnutri">
+    <img style="border-radius: 13px; width: 24rem; height: 27rem;" src="/assets/Assets Papaya Fit/Foto Doctora.png"
+      alt="" class="">
+    <strong style="font-size: 20px; color:#FF9D00">Dr.Nombre Apellido</strong><br>
+    <strong style="font-size: 15px; color:#696969; ">Nutriólogo General</strong>
+    <p style="text-align:justify; font-size: 15px; color: #696969; padding-top: 2rem;">Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</p>
+    <p style="color:#FF9D00"> <img class="sobre" src="/assets/Assets Papaya Fit/sobre mail.png" alt="">
+      hola@papayafit.com</p>
+  </div>
+  <div style="padding-top: 10rem; padding-left: 32rem;">
+    <a href="comenzar">
+      <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Comienza tu plan</button>
+    </a>
+  </div>
+</div>
+
+@endsection
+
+@section('js')
+<script src="/js/home.min.js"></script>
+<!-- <script>
+function changeColor(id)
+{
+    document.getElementById("navnaranja").style.backgroundColor= "#fff";
+  
+}
+
+
+</script> -->
+
+@endsection
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,14 +170,12 @@
 
   @endsection
 
-  <title>Blog</title>
+  <title>Nosotros</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #fff;">
     <a class="navbar-brand" href="/">
-      <!-- <img src="/assets/" alt="Logotipo" class="img-fluid"> -->
-      <!-- <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png"  alt="Logotipo" style="width: 60px;"> -->
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,52 +212,56 @@
       </ul>
 
       <form class="form-inline my-2 my-lg-0">
-
-        <!-- <h5 class="my-2 my-sm-0 texto p-2"> <strong>Iniciar Sesión</strong> </h5> -->
         <button style="background-color:#9FC40A;" class="btn btn-succsess my-2 my-sm-0 textobtn"
           type="submit"><strong>Comienza</strong></button>
       </form>
     </div>
   </nav>
 
-  <br><br><br><br> <br><br><br><br> <br><br><br><br>
-
-  <div class="clearfix" style="padding-left:3rem;">
+  <div class="clearfix" style="padding-left:3rem;padding-top: 14rem;">
     <img src="/assets/Assets Papaya Fit/Steak rec.png" alt="" class="steak">
-    <!-- <button class="btn btn-secondary float-left">Example Button floated left</button> -->
     <div class="float-left" style="margin-left:5rem;">
       <strong style="font-size: 30px;">El mejor plan alimenticio</strong><br>
       <strong style="font-size: 30px;">100% hecho para ti</strong><br><br>
       <div style="text-align: justify; width: 400px;">
-        <strong style="font-size: 18px; color:#FF9D00">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna
-          aliqua.
-        </strong>
-        <br><br>
-        <h5>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi
-          consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </h5><br><br>
-
-        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-          <h4 style="padding-left: 2rem; color:#FF9D00 ">Más de 15 menús mensuales</h4>
+        <div>
+          <strong style="font-size: 18px; color:#FF9D00;margin-left: 12rem;">Misión</strong>
+          <h5>
+            Papaya fit ofrece la mejor experiencia de bienestar a cada individuo brindando planes de alimentación
+            flexibles a estudiantes optimistas, maestros, trabajadores de oficina comprometidos, amas de casa creativas,
+            amantes del fitness, entre otros; para alcanzar objetivos de manera sencilla a bajo coste a través de sus
+            innovadoras soluciones. Además de promover el estilo de vida saludable y seguir en la renovación constante
+            hasta alcanzar la mejor versión de uno mismo. Brindar un servicio práctico de alta calidad y confiabilidad.
+          </h5>
+          <strong style="font-size: 18px; color:#FF9D00;margin-left:12rem;">Visión</strong>
+          <h5>
+            Ser la empresa numero 1 a nivel mundial en servicios de bienestar. Así como ser considerados por nuestros
+            clientes como una opción viable que ofrece soluciones y servicios basados principalmente en la practicidad,
+            creatividad, servicio y calidad que supere sus expectativas. Además de la practicidad y bajo coste
+            distinguiéndose de la competencia, de manera que su valor añadido sea extraordinario y único.
+          </h5>
         </div>
-        <h4 style="padding-left:4rem; color:#FF9D00 ">100% perzonalizados</h4><br>
+        <div style="padding-top: 4rem;">
+          <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+            <h4 style="padding-left: 2rem; color:#FF9D00 ">Más de 15 menús mensuales</h4>
+          </div>
+          <h4 style="padding-left:4rem; color:#FF9D00 ">100% perzonalizados</h4><br>
 
-        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-          <h4 style="padding-left: 2rem; color:#FF9D00;">Se ajusta a todo tipo de rutinas</h4>
+          <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+            <h4 style="padding-left: 2rem; color:#FF9D00;">Se ajusta a todo tipo de rutinas</h4>
+          </div>
+          <h4 style="padding-left:4rem; color:#FF9D00">y estilos de vida</h4><br>
+
+          <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+            <h4 style="padding-left: 2rem; color:#FF9D00;">Sin necesitar de calendarización</h4>
+          </div><br>
+
+          <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+            <h4 style="padding-left: 2rem; color:#FF9D00 ">Seguimiento 24 hrs</h4>
+          </div>
+
         </div>
-        <h4 style="padding-left:4rem; color:#FF9D00">y estilos de vida</h4><br>
 
-        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-          <h4 style="padding-left: 2rem; color:#FF9D00;">Sin necesitar de calendarización</h4>
-        </div><br>
-
-        <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-          <h4 style="padding-left: 2rem; color:#FF9D00 ">Seguimiento 24 hrs</h4>
-        </div>
       </div>
 
     </div>
@@ -219,4 +365,4 @@
 
 </body>
 
-</html>
+</html> -->

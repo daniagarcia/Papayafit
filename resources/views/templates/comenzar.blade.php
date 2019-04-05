@@ -71,31 +71,14 @@
 
 
 
-  <footer style="background-color:#fff;" class="imagenfootercomenzar">
+  <footer style="background-color:#fff;" class=" clearfix">
 
-    <div class="float-left">
-      <!-- <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="" class="papayalogofooter"> -->
-    </div><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
-    <div class="row" style="margin-left: 26rem; align-self: center;">
-
-      <div class="row float-right" style="padding-left: 8rem;">
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
-      </div>
-      <!-- <img src="/assets/Assets Individuales Papaya Fit/Asian Mix.png" alt="" class="categoria"> -->
-    </div>
-
-    <!-- <div style="">
-      <small style="margin-left: 17rem; color: #fff;">
-        @PapayaFit, 2019, Todos los derechos reservados
-        <a href="" class="link-powered">
-          Supernova Apps
-        </a>
-      </small>
+    <div  class="imagenfootercomenzar">
+  <div>
+    <!-- <div class="float-left">
+      <img src="/assets/Assets Papaya Fit/Asian Mix.png" alt="" style="width: 30rem; height: 30rem;">
 
     </div> -->
-
 
   </footer>
 

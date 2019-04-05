@@ -30,11 +30,15 @@ Inicio
   <h1 style="padding-left: 50px;" class="textonutricion"><strong>La mejor nutrición</strong></h1>
   <h1 style="padding-left: 50px;" class="textonutricion"><strong>a tu medida en tan</strong></h1>
   <h1 style="padding-left: 50px;" class="textonutricion"><strong>solo 6 pasos.</strong></h1>
+  <div style="text-align: justify; width: 40rem; padding-left: 50px; color: #be6301; font-size: 18px;">
+    <p>Planes de alimentación prácticos, ricos y variados. En papaya fit no nos adaptamos al alimento, lo adaptamos a tu
+      estilo de vida! En tan solo 6 clics. Alcanzar tu objetivo nunca fue tan fácil</p>
+  </div>
   <div class="row" style="padding-left:4rem; padding-top: 2rem;">
-  <a href="/comenzar">
-  <h3 style="color:#fff;">Comienza <img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt=""> </h3>
-  </a>
-      
+    <a href="/comenzar">
+      <h3 style="color:#fff;">Comienza <img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt=""> </h3>
+    </a>
+
   </div>
 </div>
 
@@ -43,8 +47,8 @@ Inicio
   <div style="padding-left: 600px;">
     <h1 class="textonutricion2"><strong>Si tú eres único</strong></h1>
     <h1 class="textonutricion2"><strong>¿por qué tu dieta no?</strong></h1>
-    <h5 style="color:#9FC40A;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut
-      labore et dolore magna aliqua.</h5>
+    <!-- <h5 style="color:#9FC40A;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut
+      labore et dolore magna aliqua.</h5> -->
     <br>
     <div class="textofondo2">
       <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
@@ -78,22 +82,30 @@ Inicio
   <h1 style="text-align: center; margin-bottom: 100px;"><strong>fácil que nunca</strong></h1>
   <div class="row col-12">
     <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/computer.png" alt="" class="icono2"><br><br>
-      <h3 style="text-align:center; color:#f6a60e">CREA TU CUENTA</h3><br>
-      <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h4>
+      <img src="/assets/Assets Papaya Fit/Icons/vector.png" alt="" class="icono2">
+      <div style="padding-top:2rem;">
+        <h3 style="text-align:center; color:#f6a60e">TOMA EL QUIZ</h3>
+        <h4 style="text-align: center; font-size: 17px">Queremos conocerte! En tan solo 6 clics sabremos lo necesario
+          para formar tu plan perfecto.</h4>
+      </div>
     </div>
     <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/vector.png" alt="" class="icono2"><br><br>
-      <h3 style="text-align:center; color:#f6a60e">TOMA EL QUIZ</h3><br>
-      <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h4>
+      <img src="/assets/Assets Papaya Fit/Icons/doctor.png" alt="" class="icono2">
+      <div style="padding-top:2rem;">
+        <h3 style="text-align:center; color:#f6a60e">EMPIEZA TU PLAN</h3>
+        <h4 style="text-align: center; font-size: 17px">El secreto para alcanzar tu objetivo es simplemente empezar.
+          Dicen que para alcanzarlo no hay que tener un sueño sino un plan, nosotros te lo damos!</h4>
+      </div>
     </div>
     <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/doctor.png" alt="" class="icono2"><br><br>
-      <h3 style="text-align:center; color:#f6a60e">EMPIEZA TU PLAN</h3><br>
-      <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h4>
+      <img src="/assets/Assets Papaya Fit/Icons/computer.png" alt="" class="icono2">
+      <div style="padding-top:2rem;">
+        <h3 style="text-align:center; color:#f6a60e">COME DIFERENTE</h3>
+        <h4 style="text-align: center; font-size: 17px">Todo cambio tiene un proceso clave de adaptación. Existen
+          teorías de que la formación de un hábito tarda entre 21 y 66 días. Implica la creación de nuevas neuronas y
+          que para que esto suceda es necesario la formación de recuerdos y aprendizaje. Danos 2 meses y formemos
+          hábitos juntos! Crea recuerdos con nosotros, compártelos utilizando #papayafit. </h4>
+      </div>
     </div>
   </div>
 </div>
@@ -173,10 +185,7 @@ Inicio
 
     </div>
   </div>
-
   <!--DIVPRECIOS-->
-
-
 </div>
 <br> <br> <br>
 <div style="text-align: center" class="col-12">

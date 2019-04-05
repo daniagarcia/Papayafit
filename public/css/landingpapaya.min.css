@@ -19,9 +19,25 @@
     
    
   }
+  .divquiz2{
+    /* color: #fff; */
+    /* background-color:#ff9d00; */
+    border-color:transparent;
+    width: 450px;
+    height: 80px;
+    border-radius: 1rem; 
+    font-size: 15px;
+    border-style: solid;
+    
+   
+  }
   .divquiz:hover {
     background-color: #ed8410;
-    color: #fff;
+    /* color: #fff; */
+  }
+  .divquiz strong p:hover {
+    /* background-color: #ed8410; */
+    color: #fff !important;
   }
   .divsexo{
     /* color: #fff; */
@@ -34,8 +50,23 @@
     border-style: solid;
    
   }
+  .divsexo2{
+    /* color: #fff; */
+    /* background-color:#ff9d00; */
+    border-color:transparent;
+    width: 280px;
+    height: 200px;
+    border-radius: 1rem; 
+    font-size: 15px;
+    border-style: solid;
+   
+  }
   .divsexo:hover{
     background-color: #ed8410;
+  }
+  .divsexo strong p:hover {
+    /* background-color: #ed8410; */
+    color: #fff !important;
   }
   /* .textoquiz{
     font-size: 20px;
@@ -168,11 +199,11 @@
     /* width: 1300px;  */
   }
   .imagenfootercomenzar{
-    background-image: url("/assets/Assets Papaya Fit/Group.png");
+    background-image: url("/assets/Assets Papaya Fit/verdeconplato.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* height: 500px; */
+    height: 500px;
     /* width: 1300px;  */
   }
   .fondores{
@@ -334,7 +365,7 @@
 }
 .steak{
 float: right;
-width: 60rem;
+width: 49rem;
 
 }
 .felcha{
@@ -342,8 +373,8 @@ width: 60rem;
   height: 27px;
 }
 .categoria{
-  width: 40rem;
-  height: 25rem;
+  width: 37rem;
+  height: 24rem;
 }
 .sobre{
   width: 30px;
@@ -356,9 +387,9 @@ width: 60rem;
  width: 35rem;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 /* 
 body {
   background-color: #f1f1f1;
@@ -378,11 +409,16 @@ h1 {
 }
 
 input {
-  padding: 6px;
-  width: 100%;
+  padding: 4px;
+  width: 80%;
   font-size: 17px;
   /* font-family: Raleway; */
-  border: 1px solid #aaaaaa;
+  margin-left: 1rem;
+  border:none;
+}
+::placeholder {
+  color:#ff9d00;
+  opacity: 1; /* Firefox */
 }
 
 /* Mark input boxes that gets an error on validation: */
