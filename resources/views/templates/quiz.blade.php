@@ -13,7 +13,7 @@
 
   @yield('meta')
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/Logo S/papaya.png">
+  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/PapayaLogo.png">
   <link rel="stylesheet" href="/css/dashboard.min.css?{{rand()}}">
   <link rel="stylesheet" href="/css/landingpapaya.min.css">
 
@@ -32,85 +32,75 @@
 
 <body>
   <form action="/action_page.php">
-    <div class="tab headerquiz1" style="height: 30rem; padding-top: 2rem;">
-
-      <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p style=" font-size: 15px; color: blue">#papayafit</p>
-        </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
+    <div class="tab headerquiz1">
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png"  alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p class="hashtag-papaya">#papayafit</p>
+          </a>
+        </div>
       </div>
-      <div style="padding-left:15rem;padding-top: 13rem">
-        <strong style="color:#fff; font-size: 20px;">ANTES DE COMENZAR</strong><br>
-        <strong class="" style="font-size: 6rem; color: #fff; padding-bottom: 2rem;">¿Que te gustaría lograr?</strong>
+      <div class="div-question">
+        <strong class="before-start">ANTES DE COMENZAR</strong><br>
+        <strong class="text-question-one">¿Que te gustaría lograr?</strong>
       </div>
-      <div class="clearfix"
-        style="margin-left: 2rem; line-height: 1rem; text-align: center; padding-left: 32rem; padding-top: 5rem;">
-        <div onclick="nextPrev(1)"  oninput="this.className = ''" id="res1" class="divquiz" data-bajarpeso="100" >
-          <div  onClick="objetivo()" class="divquiz2">
-              <strong class="textoquiz" style="color:ed8410; font-size: 1rem;  margin-top: 5rem;">
-                  <p style="margin-top: 2rem; font-size: 20px; color:#FF9D00;">Bajar de peso disminuyendo % de grasa</p>
-                </strong>
-          </div>
-        
-        </div><br>
-        <div onclick="nextPrev(1)" oninput="this.className = ''"  id="res2"class="divquiz" data-habitos="0">
-            <div  onClick="objetivo()" class="divquiz2">
-          <strong style="color:ed8410; font-size: 1rem;  margin-top: 5rem;">
-            <p style="margin-top: 2rem; font-size: 20px; color:#FF9D00;">Solo adquirir buenos hábitos alimenticios</p>
-          </strong>
+      <div class="clearfix div-answers">
+        <div onclick="nextPrev(1)" oninput="this.className = ''" id="res1" class="divquiz">
+          <div onClick="objetivo()" class="divquiz2 objetivo"  data-objetivo="100">
+            <strong > <p class="textoquiz"> Bajar de peso disminuyendo % de grasa</p></strong>
           </div>
         </div><br>
-        <div onclick="nextPrev(1)" oninput="this.className = ''"   id="res3" class="divquiz" data-aumentar="-100">
+        <div onclick="nextPrev(1)" oninput="this.className = ''" id="res2" class="divquiz">
+          <div onClick="objetivo()" class="divquiz2 objetivo"  data-objetivo="0">
+            <strong > <p class="textoquiz">  Solo adquirir buenos hábitos alimenticios</p> </strong>
+          </div>
+        </div><br>
+        <div onclick="nextPrev(1)" oninput="this.className = ''" id="res3" class="divquiz">
           <strong style="color:ed8410; font-size: 1rem;  margin-top: 5rem;">
-              <div  onClick="objetivo()" class="divquiz2">
-            <p style="margin-top: 2rem; font-size:  20px; color:#FF9D00;">Aumentar mi peso de manera saludable</p>
-              </div>
+            <div onClick="objetivo()" class="divquiz2 objetivo"  data-objetivo="-100">
+              <strong> <p class="textoquiz">Aumentar mi peso de manera saludable</p> </strong>
+            </div>
           </strong>
         </div>
       </div>
     </div>
-
+<!--______________________________________________________________________________________________________________-->
     <div class="tab headerquiz2 " style="height: 30rem; padding-top: 2rem;">
-      <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p style=" font-size: 15px; color: blue">#papayafit</p>
-        </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p class="hashtag-papaya">#papayafit</p>
+          </a>
+        </div>
       </div>
-      <div style="padding-left:20rem;padding-top: 13rem">
-        <strong class="" style="font-size: 6rem; color: #fff; padding-bottom: 2rem;">Selecciona tu género</strong>
+      <div class="div-question-two">
+        <strong class="text-question-two">Selecciona tu género</strong>
       </div>
-      <div class="clearfix"
-        style="margin-left: 2rem; line-height: 1rem; text-align: center; padding-left: 25rem; padding-top: 7rem;">
+      <div class="clearfix div-answers-sex">
 
         <div class="float-left">
-          <div onclick="nextPrev(1)" oninput="this.className = ''" id="fem" class="divsexo" data-femenino="f">
+          <div onclick="nextPrev(1)" oninput="this.className = ''" id="fem" class="divsexo" >
+              <div class="divsexo2" onclick="obtenerDatos()" data-genero="f">
             <img style="width: 62px; padding-top: 2rem;" src="/assets/Assets Papaya Fit/Group (1).png" alt="">
-            <div class="divsexo2"  onclick="obtenerDatos()">
-                <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
-                    <p style="margin-top: 2rem; font-size: 20px;">Femenino</p>
-                  </strong>
-            </div> 
+          
+              <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+                <p style="margin-top: 2rem; font-size: 20px;">Femenino</p>
+              </strong>
+            </div>
           </div><br>
         </div>
         <div class="float-right" style="padding-right: 25rem;">
-          <div onclick="nextPrev(1)" oninput="this.className = ''"  id="masc" class="divsexo" data-masculino="m">
-            <img style="width: 70px; padding-top: 2.5rem;height: 8rem" src="/assets/Assets Papaya Fit/Vector (1).png"
-              alt="">
-              <div class="divsexo2"  onclick="obtenerDatos()">
-                  <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
-                      <p style="margin-top: 2rem; font-size: 20px;">Masculino</p>
-                    </strong>
-              </div>
-
-           
+          <div onclick="nextPrev(1)" oninput="this.className = ''" id="masc" class="divsexo">
+              <div class="divsexo2" onclick="obtenerDatos()" data-genero="m">
+            <img style="width: 70px; padding-top: 2.5rem;height: 8rem" src="/assets/Assets Papaya Fit/Vector (1).png" alt="">           
+              <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+                <p style="margin-top: 2rem; font-size: 20px;">Masculino</p>
+              </strong>
+            </div>
           </div><br>
         </div>
       </div>
@@ -118,74 +108,69 @@
           alt="" style="width: 30px; height: 30px;"></button>
 
     </div>
+<!--______________________________________________________________________________________________________________-->
     <div class="tab headerquiz3" style="height: 30rem; padding-top: 2rem;">
-      <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p>#papayafit</p>
-        </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
-      </div>
-      <div style="padding-left:20rem;padding-top: 8rem;">
-        <!-- <h3 style="color:#fff;">ANTES DE COMENZAR</h3> -->
-        <strong class="" style="font-size: 6rem; color: #fff;">¿Cual es tu nivel de actividad física?</strong>
-      </div>
-      <div class="clearfix" style="margin-left: 15rem; line-height: 1rem; text-align: center;padding-top: 5rem;">
-        <div class="float-left" style="">
-          <div onclick="nextPrev(1)" oninput="this.className = ''" id="casinunca" class="divquiz" data-nuncam="1.3" data-nuncaf=1.2>
-            <div class="divquiz2" onclick="actividadFisica()">
-                <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
-                    <p style="margin-top: 2rem; font-size:  20px;">Casi Nunca</p>
-                  </strong>
-            </div>
-            
-          </div><br><br>
-          <div onclick="nextPrev(1)" oninput="this.className = ''" id="tresveces" class="divquiz" data-tresvecesm="1.3" data-tresvecesf=1.2>
-            <div class="divquiz2" onclick="actividadFisica()">
-                <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
-                    <p style="margin-top: 2rem; font-size:  20px;">Hago ejercicio 3 veces por semana</p>
-                  </strong>
-
-            </div>
-           
-          </div> <br><br>
-
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p class="hashtag-papaya">#papayafit</p>
+          </a>
         </div>
-        <div class="float-right" style="padding-right:15rem;">
-         
-          <div onclick="nextPrev(1)" oninput="this.className = ''" id="cincoveces" class="divquiz" data-cincovecesm="1.5" data-data-cincovecesf=1.6>
-            <div class="divquiz2" onclick="actividadFisica()">
-                <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
-                    <p style="margin-top: 2rem; font-size:  20px;">Hago ejercicio más de 5 veces por semana</p>
-                  </strong>
+      </div>
+
+      <div class="div-question-three">
+        <strong class="text-question-three">¿Cual es tu nivel de actividad física?</strong>
+      </div>
+      <div class="clearfix div-answers-three">
+        <div class="">
+          <div onclick="nextPrev(1)" oninput="this.className = ''" id="casinunca" class="divquiz" >
+            <div class="divquiz2 actividad" onclick="actividadFisica()" data-actividad-m="1.3" data-actividad-f="1.2">
+              <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+                <p style="margin-top: 2rem; font-size:  20px;">Casi Nunca</p>
+              </strong>
+            </div>
+
+          </div><br><br>
+          <div onclick="nextPrev(1)" oninput="this.className = ''" id="tresveces" class="divquiz">
+            <div class="divquiz2 actividad" onclick="actividadFisica()" data-actividad-m="1.5" data-actividad-f="1.4">
+              <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+                <p style="margin-top: 2rem; font-size:  20px;">Hago ejercicio 3 veces por semana</p>
+              </strong>
 
             </div>
-            
-          </div><br><br>
 
+          </div> <br><br>
+          <div onclick="nextPrev(1)" oninput="this.className = ''" id="cincoveces"  class="divquiz">
+            <div class="divquiz2 actividad" onclick="actividadFisica()" data-actividad-m="1.7" data-actividad-f="1.6">
+              <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+                <p style="margin-top: 2rem; font-size:  20px;">Hago ejercicio más de 5 veces por semana</p>
+              </strong>
+            </div>
+          </div>
         </div>
       </div>
       <button type="button" id="prevBtn" onclick="nextPrev(-1)"><img src="/assets/Assets Papaya Fit/Flecha - copia.png"
           alt="" style="width: 30px; height: 30px;"></button>
     </div>
+
+<!--______________________________________________________________________________________________________________-->
     <div class="tab headerquiz4" style="height: 30rem; padding-top: 2rem;">
-      <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p style=" font-size: 15px; color: blue">#papayafit</p>
-        </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p  class="hashtag-papaya">#papayafit</p>
+          </a>
+        </div>
       </div>
-      <div style="padding-left:15rem;padding-top: 18rem;">
-        <!-- <h3 style="color:#fff;">ANTES DE COMENZAR</h3> -->
-        <strong class="" style="font-size: 6rem; color: #fff;">Describe un día normal</strong>
+
+      <div class="div-question-four">
+        <strong class="text-question-four">Describe un día normal</strong>
       </div>
-      <div class="clearfix"
-        style="margin-left: 2rem; line-height: 1rem; text-align: center; padding-left: 32rem; padding-top: 2rem;">
+      <div class="clearfix div-answers-four">
         <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
           <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
             <p style="margin-top: 2rem; font-size:  20px;">Paso la mayor parte del día fuera de casa</p>
@@ -207,25 +192,26 @@
           alt="" style="width: 30px; height: 30px;"></button>
 
     </div>
+<!--______________________________________________________________________________________________________________-->
     <div class="tab headerquiz5" style="height: 30rem; padding-top: 2rem;">
-      <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p style=" font-size: 15px; color: blue">#papayafit</p>
-        </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
-      </div>
-      <div style="padding-left:18rem;padding-top: 11rem">
-        <!-- <h3 style="color:#fff;">ANTES DE COMENZAR</h3> -->
-        <strong class="" style="font-size: 5rem; color: #fff;">¿Con que opción te identificas más?</strong>
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p class="hashtag-papaya">#papayafit</p>
+          </a>
+        </div>
       </div>
 
-      <div class="clearfix" style="margin-left: 2rem; line-height: 1rem; text-align: center; padding-top: 2rem; ">
+      <div class="div-question-five">
+        <strong class="text-question-five">¿Con que opción te identificas más?</strong>
+      </div>
+
+      <div class="clearfix div-answers-five">
 
         <div class="float-left" style="padding-left: 13rem;">
-          <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz" >
+          <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
             <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
               <p style="margin-top: 2rem; font-size:  20px;">Mi debilidad es lo dulce</p>
             </strong>
@@ -265,35 +251,99 @@
           alt="" style="width: 30px; height: 30px;"></button>
 
     </div>
-
-    <div class="tab headerquiz6" style="height: 30rem; padding-top: 2rem;">
-
+  <!--______________________________________________________________________________________________________________-->
+  <div class="tab headerquiz7" style="height: 30rem; padding-top: 2rem;">
+    <div class="container-fluid">
       <div class="row">
-        <!-- <img class="" src="/assets/Assets Papaya Fit/facebook.png" alt=""> -->
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
+        <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
         <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
         <a href="" style="margin-left:3rem;">
-          <p style=" font-size: 15px; color: blue">#papayafit</p>
+          <p class="hashtag-papaya">#papayafit</p>
         </a>
-        <!-- <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt=""> -->
       </div>
-      <div style="padding-left:20rem;padding-top: 13rem;">
-        <strong class="" style="font-size: 6rem; color: #fff; padding-bottom: 2rem;">¡Ya casi terminamos!</strong> <br>
-        <strong style="color:#fff; font-size: 20px;">SÓLO NECSITAMOS UNOS ÚLTIMOS DATOS</strong><br>
+    </div>
+
+    <div class="div-question-five" style="padding-top: 18rem !important;"">
+      <strong class="text-question-five">¿Cuanta agua bebes al día?</strong>
+    </div>
+
+    <div class="clearfix div-answers-five">
+
+      <div class="float-left" style="padding-left: 13rem;">
+        <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">250 ml</p>
+          </strong>
+        </div><br><br>
+        <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">500 ml</p>
+          </strong>
+        </div><br><br>
+     
       </div>
-      <div class="clearfix" style="margin-left: 2rem; line-height: 2rem; text-align: center;  padding-top: 5rem;">
+      <div class="float-right" style="padding-right: 13rem;">
+        <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">1 litro</p>
+          </strong>
+        </div><br><br>
+        <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">2 o mas litros</p>
+          </strong>
+        </div><br><br>
+        <!-- <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">Normalmente añado sal a los alimentos</p>
+          </strong>
+        </div><br><br> -->
+        <!-- <div onclick="nextPrev(1)" oninput="this.className = ''" class="divquiz">
+          <strong style="color:#FF9D00; font-size: 1rem;  margin-top: 5rem;">
+            <p style="margin-top: 2rem; font-size:  20px;">Ninguna de las anteriores</p>
+          </strong>
+        </div><br><br> -->
+      </div>
+
+
+    </div>
+    <button type="button" id="prevBtn" onclick="nextPrev(-1)"><img src="/assets/Assets Papaya Fit/Flecha - copia.png"
+        alt="" style="width: 30px; height: 30px;"></button>
+
+  </div>
+
+
+ <!--______________________________________________________________________________________________________________-->
+
+    <div class="tab headerquiz6" style="height: 30rem; padding-top: 2rem;">
+      <div class="container-fluid">
+        <div class="row">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+          <a href="" style="margin-left:3rem;">
+            <p class="hashtag-papaya">#papayafit</p>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="div-question-six">
+        <strong class="text-question-six">¡Ya casi terminamos!</strong> <br>
+        <strong class="text2-question-six">SÓLO NECSITAMOS UNOS ÚLTIMOS DATOS</strong><br>
+      </div>
+      <div class="clearfix div-answers-six">
         <div onclick="nextPrev(1)" oninput="this.className = ''" class="">
           <div class="form-group">
             <strong
-              style="color:#696969; font-size: 15px;  margin-top: 5rem;margin-right: 25rem">Estatura(metros)</strong><br>
-            <input class="txtinput" type="number" placeholder="" id="mts" ><br>
+              style="color:#696969; font-size: 15px;  margin-top: 5rem;margin-right: 29rem">Altura(cm)</strong><br>
+            <input class="txtinput" type="number" placeholder="" id="mts"><br>
             <strong style="color:#696969; font-size: 15px;  margin-top: 5rem;margin-right: 32rem">Edad</strong><br>
             <input class="txtinput" type="number" placeholder="" id="edad"><br>
             <strong style="color:#696969; font-size: 15px;  margin-top: 5rem;margin-right: 30rem">Peso(kg)</strong><br>
             <input class="txtinput" type="number" placeholder="" id="peso"><br><br>
-            <a href="" onclick="obtenerDatos()">
-              <strong style="color:#FF9D00; font-size: 20px;padding-left: 25rem;">Resultados<img
-                  style="width: 20px; height: 20px;" src="/assets/Assets Papaya Fit/Vector.png" alt=""></strong>
+            <a href="resultados" onclick="obtenerDatos()" class="resultados">
+              <strong class="res-quiz">Resultados<img
+                  class="res-flecha" src="/assets/Assets Papaya Fit/Vector.png" alt=""></strong>
             </a>
           </div>
 
@@ -303,9 +353,10 @@
           alt="" style="width: 30px; height: 30px;"></button>
 
     </div>
-    <!-- <br><br><br><br> <br><br><br><br> -->
-    <!-- <button type="button" id="prevBtn" onclick="nextPrev(-1)"><img src="/assets/Assets Papaya Fit/Flecha - copia.png" alt="" style="width: 30px; height: 30px;"></button> -->
-    <div style="text-align:center;margin-top:15rem; padding-top: 12rem;">
+    <!--______________________________________________________________________________________________________________-->
+   <div style="text-align:center;margin-top:15rem; padding-top: 12rem;">
+      <span class="step"></span>
+      <span class="step"></span>
       <span class="step"></span>
       <span class="step"></span>
       <span class="step"></span>
@@ -315,10 +366,11 @@
     </div>
   </form>
 
-
+  <script src="./libs/jquery/jquery.min.js"></script>
   <script src="./js/quiz.min.js"></script>
-  <script src="./js/resultados.min.js"></script>
+  <script src="./js/question.min.js"></script>
 </body>
+
 
 </html>
 <!-- @section('js') -->

@@ -7,9 +7,8 @@
     border-radius: 1rem; 
     font-size: 15px;
   }
-  .divquiz{
-    /* color: #fff; */
-    /* background-color:#ff9d00; */
+  /* .divquiz{
+
     border-color:#ff9d00;
     width: 450px;
     height: 80px;
@@ -18,10 +17,9 @@
     border-style: solid;
     
    
-  }
-  .divquiz2{
-    /* color: #fff; */
-    /* background-color:#ff9d00; */
+  } */
+  /* .divquiz2{
+   
     border-color:transparent;
     width: 450px;
     height: 80px;
@@ -30,18 +28,16 @@
     border-style: solid;
     
    
-  }
-  .divquiz:hover {
+  } */
+  /* .divquiz:hover {
     background-color: #ed8410;
-    /* color: #fff; */
-  }
-  .divquiz strong p:hover {
-    /* background-color: #ed8410; */
+   
+  } */
+  /* .divquiz strong p:hover {
     color: #fff !important;
-  }
-  .divsexo{
-    /* color: #fff; */
-    /* background-color:#ff9d00; */
+  } */
+  /* .divsexo{
+    
     border-color:#ed8410;
     width: 280px;
     height: 200px;
@@ -49,10 +45,9 @@
     font-size: 15px;
     border-style: solid;
    
-  }
-  .divsexo2{
-    /* color: #fff; */
-    /* background-color:#ff9d00; */
+  } */
+  /* .divsexo2{
+
     border-color:transparent;
     width: 280px;
     height: 200px;
@@ -60,17 +55,23 @@
     font-size: 15px;
     border-style: solid;
    
-  }
-  .divsexo:hover{
-    background-color: #ed8410;
-  }
-  .divsexo strong p:hover {
-    /* background-color: #ed8410; */
-    color: #fff !important;
-  }
-  /* .textoquiz{
-    font-size: 20px;
   } */
+  /* .divsexo:hover{
+    background-color: #ed8410;
+  } */
+  /* .divsexo strong p:hover {
+  
+    color: #fff !important;
+  } */
+  .textoquiz{
+    font-size: 20px;
+    color:ed8410; 
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-top: 2rem; 
+    font-size: 20px;
+    color:#FF9D00;
+  }
   .btnnuevo{
     color: #fff;
     background-color:#1cb3c8;
@@ -110,47 +111,53 @@
     border-radius: 0.5rem; 
     font-size: 15px;
   }
-  .texto{
+  /* .texto{
    font-size: 15px;
    text-align: center;
    color: #f6a60e;
-  }
-  .textobtn{
+  } */
+  /* .textobtn{
     font-size: 15px;
     text-align: center;
     color: #fff;
-   }
-   .textonutricion{
+   } */
+   /* .textonutricion{
     font-size: 60px;
     text-align:left;
     color:#fff;
-    /* padding-left: 50; */
-   }
-   .textonutricion2{
+    padding-left: 50px;
+   
+   } */
+   /* .textonutricion2{
     font-size: 60px;
     text-align:left;
     color:#fff;
-    /* padding-left: 600px; */
-   }
-   .textofondo2{
+    
+   } */
+   /* .textofondo2{
     font-size: 60px;
+   
+    color:#fbaf32;
+    line-height: 30pt;
+   } */
+   .textor{
+    font-size: 20px;
     /* text-align:left; */
     color:#fbaf32;
     line-height: 30pt;
    }
   
-  .sombra{
+  /* .sombra{
     -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
     box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
     padding: 1rem;
     border-radius: .5rem;
     background: #fff;
-  }
+  } */
     
-  .sombraprecios{
+  .sombra-card{
     -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
     box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
-    /* padding: 1rem; */
     border-radius: .5rem;
     background: #fff;
   }
@@ -161,88 +168,109 @@
     width: auto;
     height: auto;
   }
-  .icono{
+  /* .icono{
     width: 40px;
     height: 40px;
 
-  }
-  .icono2{
+  } */
+  /* .icono2{
     width: 150px;
     height: 150px;
     margin-left: 85px;
-  }
-  .fondo{
-    background-image: url("/assets/Assets Papaya Fit/Fondo Top Chico Fit.png");
-    /* background-repeat: no-repeat ;
-    background-size: cover;
-    width: 100%;
-    height: 100%; */
+  } */
+  /* .iconocalendario{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+
+  } */
+  /* .fondo{
+    background-image: url("/assets/Assets Papaya Fit/Fondo Top Chico Fit.png");   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 1000px;
-    /* width: 100%; */
-  }
+    
+  } */
   .fondo2{
-    background-image: url("/assets/Assets Papaya Fit/Fondo y Plato Mid.png");
+    background-image: url("/assets/Assets Papaya Fit/comenzar-foo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 1300px;
   }
-  .imagenfooter{
+  /* .imagenfooter{
     background-image: url("/assets/Assets Individuales Papaya Fit/Footer Fondo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* height: 500px; */
-    /* width: 1300px;  */
-  }
+   
+  } */
   .imagenfootercomenzar{
-    background-image: url("/assets/Assets Papaya Fit/verdeconplato.png");
+    
+    background-image: url("/assets/Assets Papaya Fit/comenzar-foo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
-    /* width: 1300px;  */
+    height: 558px;
+    /* margin-top: 10rem */
+    margin-top: 16rem;
   }
-  .fondores{
-    background-image: url("/assets/Assets Individuales Papaya Fit/Fondo Top.png");
-    /* background-repeat: no-repeat ;
-    background-size: cover;
-    width: 100%;
-    height: 100%; */
+  .imagenfootercomenzarr{
+    
+    background-image: url("/assets/Assets Papaya Fit/comenzar-foo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
-    /* width: 100%; */
+    height: 726px;
+    /* margin-top: 10rem */
+    margin-top: 7rem;
   }
-  .divcards{
+  .imagenfooterverde{
+    
+    background-image: url("/assets/Assets Papaya Fit/Group (10).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 195px;
+    /* margin-top: 10rem */
+    /* margin-top: 16rem; */
+  }
+  .hashtag-papayaa{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 3rem !important;
+  }
+  /* .fondores{
+    background-image: url("/assets/Assets Individuales Papaya Fit/comenzar-foo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+ 
+  } */
+  /* .divcards{
     width: 400px;
     height: 500px;
     padding-left: 50px;
     padding-right: 50px;
-    /* align-items: center; */
-  }
-  .divcomu{
+   
+  } */
+  /* .divcomu{
     width: 350px;
-    height: 500px;
-    /* padding-left: 50px; */
-    /* padding-right: 50px; */
+    height: 500px;   
     align-self: auto;
     margin-left: 3rem;
-    /* align-items: center; */
-  }
-  .divnutri{
-    width: 350px;
-    height: 685px;
-    padding-left: 30px;
-    /* padding-right: 50px; */
-    /* align-self: auto; */
-    margin-left: 4rem;
-    /* align-items: center; */
-  }
+    
+  } */
+  /* .divnutri{
+    width: 275px;
+    height: 628px;
+    
+    margin-left: 3rem;
+    
+  } */
   .divnutri2{
     width: 350px;
     height: 685px;
@@ -255,19 +283,20 @@
   .pantalla{
     width: 600px;
     height: 500px;
-    padding-left: 100px;
+    padding-left: 85px;
   }
   .divtitulo{
     /* margin: 1rem; */
     /* padding: 1rem; */
     text-align: center;
   }
-  .divpantalla{
+  /* .divpantalla{
     width: 600px;
     /* height: 500px; */
-  }
+  } */
   .scrollmodal{
-     height: 65vh;
+     /* height: 65vh; */
+     height: 94vh
     /* width: 100%; */
     /* justify-content: center; */
     /* width: 500px !important; */
@@ -282,33 +311,36 @@
     /* height: 400px; */
      /* width: 900px; */
   }
-  .papayalogo{
+  /* .papayalogo{
      height: 265px;
       width: 280px; 
       padding-left: 50;
-      /* background-image: url('/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png'); */
-  }
-  .papayalogofooter{
+      
+  } */
+  /* .papayalogofooter{
     height: 220px;
      width: 200px; 
      margin-top: 15rem;
-     /* margin-right: 20rem; */
-     /* padding-left: 180px; */
-     /* background-image: url('/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png'); */
- }
- .blog{
+ } */
+ /* .blog{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/Assets Papaya Fit/Rectangle.png');
+ } */
+ .imgCalendario{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle.png');
  }
- .headerquiz1{
+ /* .headerquiz1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle (1).png');
- }
- .headerquiz2{
+ } */
+ /* .headerquiz2{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -337,14 +369,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('/assets/Assets Papaya Fit/Rectangle (6).png');
- }
+ } */
   .divlogo{
     height: 250px;
     width: 220px; 
   }
-  .divprecios{
+  /* .divprecios{
     margin-left: 4rem;
-    /* padding-left: 90px; */
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -357,35 +388,39 @@
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
     outline: 0;
-  }
-.sizeIcons{
+  } */
+/* .sizeIconss{
   widows: 35px;
   height: 35px;
   margin-left:3rem;
-}
-.steak{
+} */
+/* .steak{
 float: right;
 width: 49rem;
 
-}
-.felcha{
+} */
+/* .felcha{
   width: 27px;
   height: 27px;
-}
-.categoria{
+} */
+/* .felchacalendario{
+  width: 25px;
+  height: 25px;
+} */
+/* .categoria{
   width: 37rem;
   height: 24rem;
-}
-.sobre{
+} */
+/* .sobre{
   width: 30px;
   height: 30px;;
 
-}
-.txtinput{
+} */
+/* .txtinput{
  background-color: #eeeded;
  border-radius: 14px;
  width: 35rem;
-}
+} */
 
 /* * {
   box-sizing: border-box;
@@ -408,18 +443,17 @@ h1 {
   text-align: center;  
 }
 
-input {
+/* input {
   padding: 4px;
   width: 80%;
   font-size: 17px;
-  /* font-family: Raleway; */
   margin-left: 1rem;
   border:none;
 }
 ::placeholder {
   color:#ff9d00;
-  opacity: 1; /* Firefox */
-}
+  opacity: 1;
+} */
 
 /* Mark input boxes that gets an error on validation: */
 /* input.invalid {
@@ -450,24 +484,286 @@ button:hover {
 }
 
 /* Make circles that indicate the steps of the form: */
-.step {
+/* .step {
   height: 42px;
   width: 42px;
-  margin: 22px 7px;
+  margin: 22px 7px; */
   /* background-color: #bbbbbb; */
-  border: #e8b109;  
+  /* border: #e8b109;  
   border-radius: 56%;
-  display: inline-block;
+  display: inline-block; */
   /* opacity: 0.5; */
-  border-style: solid;
+  /* border-style: solid;
   border-width: thin;
+} */
+
+/* .step.active {
+  opacity: 1;
+} */
+
+/* Mark the steps that are finished and valid: */
+/* .step.finish {
+  background-color: #ff9d00;
+} */
+/* .divcalendario{
+  width: 71rem;
+  height: 14rem;
+  align-self: auto;
+  margin-left: 7rem;
+
+
+} */
+/* .divplatillo{
+  width: 12rem;
+  height: 14rem;
+ 
+ 
+
+} */
+/* .divplatillo:hover {
+  background-color: #ed8410;
+  
+} */
+/* .sombraplatillos{
+  -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+  box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+  /* padding: 1rem; *
+  border-radius: 1rem;
+  background: #fff;
+} */
+/* .divdias{
+  background-color: #fff !important;
+    border-style: solid !important;
+    /* border-color: black; 
+    border-bottom: black;
+    border-left: black;
+    border-width: thin;
+    border-radius: 1rem;
+
+} */
+/* .divcomida{
+   background-color: #FF9D00;
+   width: 12rem;
+   height: 4rem;
+  /* color: #fff; 
+   padding-top: 1.2rem;
+   text-align: center;
+   /* font-weight:bold;
+   color: #fff; 
+   padding-top: 1.2rem; padding-top: 1.2rem; border-width: thin; border-right-style: solid; border-color: white;
+} */
+/* .imagencomida{
+  width: 12rem;
+  height: 10rem;
+  margin-left: -1rem;
+
+}
+.imagencomida:hover {
+  background-color: #ed8410;
+  /* color: #fff; 
+} */
+
+/* .dias{
+  padding-top: 6rem;
+    padding-left: 3rem;
+    color: #5c5c5c;
+    font-size: 31px;
 }
 
-.step.active {
+.comida{
+  color:#fff;
+  font-size: 17px;
+}
+
+.divprimero{
+  background-color: #fff !important;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: #e0e0e0;
+}
+.semanas{
+  color:#FF9D00;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btndescarga{
+  color: #fff;
+  background-color:#ff9d00;
+  border-color:#ff9d00;
+  width: 310px;
+  height: 76px;
+  border-radius: 1rem; 
+  font-size: 15px;
+} */
+/* .icondatos{
+  width: 70px;
+  height: 60px;
+  margin: 19px;
+} */
+/* .divdatos{
+  border-right: orange;
+  border-right-style: solid;
+  border-width: thin;
+  margin: 8px;
+  text-align: center;
+} */
+.divhead{
+
+}
+/* 
+.iconquestion{
+  width: 35px;
+  height: 35px;
+} */
+
+
+/* .divquiz strong p:hover {
+
+  color: #fff !important;
+} */
+
+
+/* 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.imagencomida:hover .overlay {
   opacity: 1;
 }
 
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #ff9d00;
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+/* * {box-sizing: border-box;} */
+
+/* .container {
+  position: relative;
+  /* width: 50%;
+  max-width: 300px; 
 }
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: #ffc10791; /* Black see-through 
+  color: #f1f1f1; 
+  width: 100%;
+  height:160px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  /* padding: 20px;
+  text-align: center; 
+  padding-top: 6rem;
+  text-align: center;
+  margin-left: -1rem;
+}
+
+/* #ffc107;
+    background: ; 
+
+.container:hover .overlay {
+  opacity: 1;
+} */
+.logopapaya-nav{
+  width: 90px
+}
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+
+
+.morado{
+  background-image: url("/assets/Assets Papaya Fit/footer-morado.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+
+}
+
+  /* .imagenfooter{
+    background-image: url("/assets/Assets Individuales Papaya Fit/Footer Fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  } */
+   
+
+
+
+  .div-resumen{
+    width: 22rem;
+    padding-left: 4rem;
+  }
+      
+  
+  .resumen{
+    font-size: 3rem;
+    color: #696969;
+  }
+    
+  
+  .divdatos{
+    border-right: orange;
+    border-right-style: solid;
+    border-width: thin;
+    margin: 8px;
+    text-align: center;
+  
+  }
+      
+  
+  .icondatos{
+    width: 70px;
+    height: 60px;
+    margin: 19px;
+  
+  }   
+  
+  .div-resultados{ 
+       width: 26rem;
+      height: 25rem;
+      border-width: 1px;
+      border-radius: 30px;
+      text-align:center;
+      margin-left: 2rem;
+    }
+  

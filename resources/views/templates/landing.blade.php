@@ -10,17 +10,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=7">
   <meta name="theme-color" content="Primary Color">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <!-- <link rel="stylesheet" href="/css/productos.min.css">
-    <link rel="stylesheet" href="/css/dashboard.min.css"> -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   @yield('meta')
 
-  <!-- <link rel="shortcut icon" href="/assets/images/logos/selectonerlogop5.png"> -->
+  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/LogoPapayaFitDos.png">
   @yield('css')
-  <link rel="stylesheet" href="/css/landingpapaya.min.css">
+  <!-- <link rel="stylesheet" href="/css/landingpapaya.min.css"> -->
+  <link rel="stylesheet" href="/css/home.min.css">
+
   <title>
     Papaya Fit | @yield('title')
   </title>
 </head>
+
+<!-- <body style="position: absolute;"> -->
 
 <body>
 
@@ -30,117 +35,92 @@
   <audio id="sound-warning" src="/assets/sounds/success.mp3"></audio>
 
 
-  <nav id="navnaranja" class="navbar navbar-expand-lg fixed-top" style="background-color: #ffd261">
+  <nav class="navbar navbar-expand-lg fixed-top nav-background">
     <a class="navbar-brand" href="/">
-      <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="Logotipo" style="width: 60px;">
+      <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="Logotipo" class="logopapaya-nav">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div style="padding-top: 1rem;" class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link texto" href="#">|</a>
+          <p class="nav-link text-nav" href="#">|</p>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" onclick="changeColor('navnaranja');" href="nosotros"
-            style="color: #FF9D00"><strong>Nosotros</strong></a>
+          <a class="nav-link text-nav" href="nosotros" style="color: #FF9D00"><strong>Nosotros</strong></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" href="#">|</a>
+          <p class="nav-link text-nav" href="#">|</p>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" href="blog" style="color: #FF9D00"><strong>Blog</strong></a>
+          <a class="nav-link text-nav" href="blog" style="color: #FF9D00"><strong>Blog</strong></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link texto" href="#">|</a>
+          <p class="nav-link text-nav" href="#">|</p>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-
-        <button style="background-color:#9FC40A;" class="btn btn-succsess my-2 my-sm-0 textobtn"
-          type="submit"><strong>Comienza</strong></button>
+      <form style="padding-bottom: 1rem;" class="form-inline my-2 my-lg-0">
+        <button style="" class="btn btn-succsess my-2 my-sm-0 btn-start-nav" type="submit">
+          <strong><a href="/comenzar" class="text-link">Comienza</a></strong>
+        </button>
       </form>
     </div>
   </nav>
 
-
-
-
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12" style="padding:0;">
-        <div id="cont1">
+      <div class="col-md-12  px-0">
+        <div>
           @yield('content')
         </div>
+
       </div>
     </div>
   </div>
 
 
-
-  <footer style="background-color:#fff;" class="imagenfooter clearfix">
-
+  <footer class="clearfix landing-footer">
     <div class="float-left">
-      <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="" class="papayalogofooter">
+      <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="" class="papayalogofooter">
     </div>
-    <div class="row" style="margin-left: 26rem; align-self: center; margin-top: 20rem;">
-
-      <a href="/">
-        <h3 style="color:#fff; font-size: 18px;"><strong>Inicio</strong><br></h3>
-      </a>
-      <a href="/nosotros">
-        <h3 style="margin-left:4rem; color:#fff; font-size:18px;"><strong>Nosotros</strong><br></h3>
-      </a>
-      <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>FAQ</strong> <br> </h3>
-      <a href="/blog">
-        <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>Blog</strong> </h3>
-      </a>
+    <div class="row menu-footer">
+      <a href="/" class="text-link"><strong style="color:#fff;">Inicio</strong></a><br>
+      <a href="/nosotros" class="text-link"><strong class="menu-footer2">Nosotros</strong></a><br>
+      <a href="" class="text-link"><strong class="menu-footer2">FAQ</strong></a><br>
+      <a href="/blog" class="text-link"><strong class="menu-footer2">Blog</strong> </a>
 
       <div class="row float-right" style="padding-left: 8rem;">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
+        <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
         <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <a href="" style="margin-left:3rem;">
-          <p>#papayafit</p>
-        </a><br><br>        
+        <p class="hashtag-papaya"> <a href="" class="text-link">#papayafit</a></p>
+        <br><br>
       </div>
     </div>
-    <div style="margin-left: 26rem; color: #fff;align-self: center;margin-top: 1px;">
+    <div class="line-footer">
       <p>__________________________________________________________</p>
     </div>
-    <p style="color:#fff;padding-left: 64rem"> <img class="sobre" src="/assets/Assets Papaya Fit/msj.png" alt="">
+    <p class="text-email"> <img class="icon-email" src="/assets/Assets Papaya Fit/msj.png" alt="">
       hola@papayafit.com</p>
 
-    <div class="row" style="margin-left:26rem;">
-      <small style=" margin-left:25px;font-size: 13px; color:#ed8410"> Seguridad</small>
-      <small style=" margin-left:25px;font-size: 13px; color:#ed8410">Aviso de Privacidad</small>
-      <small style=" margin-left:25px;font-size: 13px; color:#ed8410">Términos y Condiciones</small>
+    <div class="row terminos">
+      <small class="doc-footer"> Seguridad</small>
+      <small class="doc-footer">Aviso de Privacidad</small>
+      <small class="doc-footer">Términos y Condiciones</small>
     </div>
 
     <div style=" margin-top: 2rem;">
-      <small style="margin-left: 30rem; color: #fff;">
+      <small class="rights-footer">
         @PapayaFit, 2019, Todos los derechos reservados
       </small>
-
     </div>
-
-
   </footer>
 
 
   @yield('js')
 
-  <!-- <script>
-
-    function changeColor(id) {
-      document.getElementById("navnaranja").style.backgroundColor = "#fff";
-      // $("#b").removeClass('is-warning');
-    }
-
-
-  </script> -->
 
 </body>
 

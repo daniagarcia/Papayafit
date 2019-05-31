@@ -13,111 +13,139 @@
 @endsection
 
 @section('title')
-Inicio
+Resultados
 @endsection
 
 @section('css')
 <link rel="stylesheet" href="/css/home.min.css">
+
 @endsection
 
 @section('content')
 
-<div class="clearfix fondores" style="">
-    <div class="float-right" style="padding-top: 8rem;">
-      <div style="padding-left: 14rem;">
-        <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" style="width: 15rem; height: 16rem;" alt="">
-      </div>
-      <strong style="font-size: 7rem; color:#fff;">¡Felicidades!</strong>
-      <div style="width: 573px; text-align: -webkit-center;">
-        <p style="color:#be6301; font-size: 24px;">Sabemos lo difícil que pueden ser los cambios, y este es tu
-          primer paso hacia una mejor nutrición</p>
+<div class="clearfix back-res" style="">
 
-      </div>
-      <div style="padding-left: 12rem;">
-        <a href="">
-          <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Descarga tu
-            plan</button>
-        </a>
-      </div>
+  <div class="float-left">
+    <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png"
+      class="papaya-logoo" alt="">
+  </div>
+  <div class="float-right div-congrats">
+
+    <strong class="text-congrats">¡Felicidades!</strong>
+    <div style="">
+      <p class="text2-congrats">Sabemos lo difícil que pueden ser los cambios, y este es tu
+        primer paso hacia una mejor nutrición</p>
+
+    </div>
+    <div style="padding-left: 12rem;">
+      <a href="/pasouno">
+        <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Descarga tu
+          plan</button>
+      </a>
     </div>
   </div>
+</div>
 
-  <div>
-    <div class="clearfix">
-      <div style="width: 22rem; padding-left: 4rem;" class="float-left">
-        <strong style="font-size: 3rem;color: #696969">Resumen de tu perfil</strong>
-      </div>
-      <div class="float-right row" style="padding-right: 6rem;">
-        <h4 style="color:#696969">26 años</h4>
-        <h4 style="color:#696969">1.61 m</h4>
-        <h4 style="color:#696969">67 kg</h4>
-      </div>
-
+<div>
+  <div class="clearfix">
+    <div class="div-resumen float-left">
+      <strong class="resumen">Resumen de tu perfil</strong>
     </div>
+    <div class="container-fluid">
+      <div class="float-right row" style="padding-right: 6rem;">
+        <div class="divdatos">
+          <img class="icondatos" src="/assets/Assets Papaya Fit/resultados/event.png" alt="">        
+          <h4 style="color:#696969" id="edadinfo" ></h4>
+        </div>
+        <div class="divdatos">
+          <img class="icondatos" src="/assets/Assets Papaya Fit/resultados/resize.png" alt="">
+          <h4 style="color:#696969" id="alturainfo"></h4>
+        </div>
+        <div class="divdatos" style="border-color: transparent !important;">
+          <img class="icondatos" src="/assets/Assets Papaya Fit/resultados/weight-scale.png" alt="">
+          <h4 style="color:#696969" id="pesoinfo"></h4>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid">
 
     <div style="padding-top: 3rem;" class="row">
-      <div
-        style="width: 26rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
-        class="sombraprecios">
+      <div class="sombraprecios div-resultados">
         <div
-          style="width:26   rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">BMI</strong>
+          class="head-resultados">
+          <div style="padding-top:1rem;">
+            <strong class="title-card">BMI</strong>
+            <img class="iconquestion" src="/assets/Assets Papaya Fit/resultados/information.png" alt="">
           </div>
         </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Tu peso es normal</p>
-          <p style="font-size: 10px; color: #696969"></p>
+        <div style="">
+          <img style="margin-left: 3rem; margin-top: 2rem; width: 20rem;" src="/assets/Assets Papaya Fit/resultados/speedometer.png" alt="">
+          <div class="row" style="padding-left: 7rem; padding-top: 4rem">
+            <p class="text-weight">Tu peso es <br> </p>
+            <p class="text-weight-res" id="imc"></p>
+          </div>
         </div>
       </div>
-      <div
-        style="width: 26rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
-        class="sombraprecios">
+      <div class="sombraprecios div-resultados">
         <div
           style="width:26rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Edad Metabólica</strong>
+          <div style="padding-top:1rem;">
+            <strong class="title-card">Edad Metabólica</strong>
+            <img class="iconquestion" src="/assets/Assets Papaya Fit/resultados/information.png" alt="">
           </div>
         </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Tu edad metabólica es de 21 años</p>
-          <p style="font-size: 10px; color: #696969"></p>
+        <div style="">
+          <img class="img-age" src="/assets/Assets Papaya Fit/resultados/happy.png" alt="">
+          <div class="row" style="padding-left: 3rem; padding-top: 3rem">
+            <p style="font-size: 20px;color: #696969; font-weight: bold;">Tu edad metabólica <br> </p><br>
+            <p style="font-size: 20px;color: #696969; font-weight: bold;">es de <br>
+              <p style="font-size: 20px;color: #FF9D00; font-weight: bold;" id="edadm"></p>
+            </p>
+          </div>
         </div>
       </div>
-      <div
-        style="width: 26rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
-        class="sombraprecios">
-        <div
-          style="width:26rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Requerimiento energético</strong>
+      <div class="sombraprecios div-resultados">
+        <div class="head-resultados">
+          <div style="padding-top:1rem;">
+            <strong class="title-card">Requerimiento energético</strong>
+            <img class="iconquestion" src="/assets/Assets Papaya Fit/resultados/information.png" alt="">
           </div>
         </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Calorias recomendadas:</p>
-          <p style="color: #FF9D00">1,898 Cal</p>
-          <p style="font-size: 10px; color: #696969"></p>
+        <div style="padding:2rem;">
+          <img style="width: 22rem; height: 12rem;" src="/assets/Assets Papaya Fit/resultados/graphic.png" alt="">
+          <div class="row" style="padding-left: 1rem; padding-top: 3rem">
+            <p style="font-size: 20px;color: #696969; font-weight: bold;">Calorias recomendadas:<br> </p><br>
+            <p style="font-size: 20px;color: #FF9D00; font-weight: bold;" id="kal"></p>
+          </div>
         </div>
       </div>
 
     </div>
+
+  </div>
+
+  <div class="container-fluid">
     <div class="row" style="padding-top: 3rem;">
-      <div
-        style="width: 26rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
-        class="sombraprecios">
-        <div
-          style="width:26rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Agua Recomendada</strong>
+      <div class="sombraprecios div-resultados">
+        <div class="head-resultados">
+          <div style="padding-top:1rem;">
+            <strong class="title-card">Agua Recomendada</strong>
+            <img class="iconquestion" src="/assets/Assets Papaya Fit/resultados/information.png" alt="">
           </div>
         </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">2.6.litros de agua al día</p>
-          <p style="font-size: 10px; color: #696969"></p>
+        <div style="">
+          <img style="width: 12rem; margin-left: 7rem;  margin-top: 2rem;
+          height: 12rem" src="/assets/Assets Papaya Fit/resultados/Group.png" alt="">
+          <div class="row" style="padding-left: 6rem; padding-top: 3rem">
+            <p style="font-size: 20px;color: #FF9D00; font-weight: bold;" id="agua"><br></p><br>
+            <p style="font-size: 20px;color: #696969; font-weight: bold;"> de agua al día<br> </p>
+
+          </div>
         </div>
       </div>
       <div
@@ -125,259 +153,66 @@ Inicio
         class="sombraprecios">
         <div
           style="width:26rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Peso recomendado</strong>
+          <div style="padding-top:1rem;">
+            <strong style="font-size:25px; color:#fff;">Peso recomendado</strong>
+            <img class="iconquestion" src="/assets/Assets Papaya Fit/resultados/information.png" alt="">
           </div>
         </div>
+
         <div style="padding:1rem;">
-          <strong style="font-size: 70px;color: #FF9D00">61.3 kg</strong>
-          <p style="font-size: 15px; color: #696969">Peso alcanzable durante el primer mes de tu plan de
+          <strong style="font-size: 100px;color: #FF9D00" id="rec"></strong>
+          <p style="font-size: 25px; color: #696969; font-weight: bold;">Peso alcanzable durante el primer mes de tu
+            plan de
             alimentación</p>
           <p style="font-size: 10px; color: #696969"></p>
         </div>
       </div>
+      <div class="sombraprecios div-resultados">
       <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
-        class="">
+        style="width:26rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
+        <div style="padding-top:0.5rem;">
+          <img style="height: 58px;" src="/assets/Assets Papaya Fit/OM.png" alt="">
+          <strong class="title-card"></strong>
+        </div>
+      </div>
+      <div style="padding:2rem;">
+        <div class="row" style="">
+            <p style="text-align: center; font-size: 21px;color: #696969; font-weight: bold;" id="mensaje"><br> </p>
+            
+        </div>
       
+      </div>
+    </div>
+   
+
+    </div>
+   <div
+        style="padding-top: 3rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 2rem;"
+        class="">
+
         <div style="padding:rem;">
           <strong style="font-size: 40px">¿Que esperas para cambiar tu vida?</strong>
           <div style="padding-top: 2rem;">
-            <a href="">
+            <a href="pasouno">
               <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Descarga tu
                 plan</button>
             </a>
           </div>
-          
+
         </div>
       </div>
 
-    </div>
-
   </div>
+
+
+</div>
 
 @endsection
 
 @section('js')
+<script src="./libs/jquery/jquery.min.js"></script>
 <script src="/js/home.min.js"></script>
 <script src="./js/quiz.min.js"></script>
 <script src="./js/resultados.min.js"></script>
+<script src="./js/question.min.js"></script>
 @endsection
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="url" content="{{ env('APP_URL') }}">
-  <meta name="api" content="{{ env('API_URL') }}" id="api-url">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="theme-color" content="Primary Color">
-  <meta name="csrf-token" content="{{ csrf_token() }}">
-
-  @yield('meta')
-
-  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/Logo S/papaya.png">
-  <link rel="stylesheet" href="/css/dashboard.min.css?{{rand()}}">
-  <link rel="stylesheet" href="/css/landingpapaya.min.css">
-
-
-  @yield('css')
-
-  @section('css')
-  <link rel="stylesheet" href="/css/home.min.css">
-  <link rel="stylesheet" href="/css/landingpapaya.min.css">
-
-  @endsection
-
-  <title>Resultados</title>
-</head>
-
-<body>
-
-  <div class="clearfix fondores" style="">
-    <div class="float-right" style="padding-top: 8rem;">
-      <div style="padding-left: 14rem;">
-        <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" style="width: 15rem; height: 16rem;" alt="">
-      </div>
-      <strong style="font-size: 7rem; color:#fff;">¡Felicidades!</strong>
-      <div style="width: 573px; text-align: -webkit-center;">
-        <p style="color:#be6301; font-size: 24px;">Sabemos lo difícil que pueden ser los cambios, y este es tu
-          primer paso hacia una mejor nutrición</p>
-
-      </div>
-      <div style="padding-left: 12rem;">
-        <a href="">
-          <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Descarga tu
-            plan</button>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="clearfix">
-      <div style="width: 22rem; padding-left: 4rem;" class="float-left">
-        <strong style="font-size: 3rem;color: #696969">Resumen de tu perfil</strong>
-      </div>
-      <div class="float-right row" style="padding-right: 6rem;">
-        <h4 style="color:#696969">26 años</h4>
-        <h4 style="color:#696969">1.61 m</h4>
-        <h4 style="color:#696969">67 kg</h4>
-      </div>
-
-    </div>
-
-    <div style="padding-top: 3rem;" class="row">
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 5rem;"
-        class="sombraprecios">
-        <div
-          style="width:28rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">BMI</strong>
-          </div>
-        </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Tu peso es normal</p>
-          <p style="font-size: 10px; color: #696969"></p>
-        </div>
-      </div>
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 4rem;"
-        class="sombraprecios">
-        <div
-          style="width:28rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Edad Metabólica</strong>
-          </div>
-        </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Tu edad metabólica es de 21 años</p>
-          <p style="font-size: 10px; color: #696969"></p>
-        </div>
-      </div>
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 4rem;"
-        class="sombraprecios">
-        <div
-          style="width:28rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Requerimiento energético</strong>
-          </div>
-        </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">Calorias recomendadas:</p>
-          <p style="color: #FF9D00">1,898 Cal</p>
-          <p style="font-size: 10px; color: #696969"></p>
-        </div>
-      </div>
-
-    </div>
-    <div class="row" style="padding-top: 3rem;">
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 5rem;"
-        class="sombraprecios">
-        <div
-          style="width:28rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Agua Recomendada</strong>
-          </div>
-        </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px"></strong>
-          <p style="font-size: 15px; color: #696969">2.6.litros de agua al día</p>
-          <p style="font-size: 10px; color: #696969"></p>
-        </div>
-      </div>
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 4rem;"
-        class="sombraprecios">
-        <div
-          style="width:28rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-          <div style="padding-top:2rem;">
-            <strong style="font-size:20px; color:#fff;">Peso recomendado</strong>
-          </div>
-        </div>
-        <div style="padding:1rem;">
-          <strong style="font-size: 70px;color: #FF9D00">61.3 kg</strong>
-          <p style="font-size: 15px; color: #696969">Peso alcanzable durante el primer mes de tu plan de
-            alimentación</p>
-          <p style="font-size: 10px; color: #696969"></p>
-        </div>
-      </div>
-      <div
-        style="width: 28rem; height: 25rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 4rem;"
-        class="">
-      
-        <div style="padding:rem;">
-          <strong style="font-size: 40px">¿Que esperas para cambiar tu vida?</strong>
-          <div style="padding-top: 2rem;">
-            <a href="">
-              <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Descarga tu
-                plan</button>
-            </a>
-          </div>
-          
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-
- 
-
-
-
-  <footer style="background-color:#fff;" class="imagenfooter clearfix">
-
-    <div class="float-left">
-      <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="" class="papayalogofooter">
-    </div><br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
-    <div class="row" style="margin-left: 26rem; align-self: center; margin-top: 20rem;">
-
-
-      <h3 style="color:#fff; font-size: 18px;"><strong>Inicio</strong><br></h3>
-      <h3 style="margin-left:4rem; color:#fff; font-size:18px;"><strong>Nosotros</strong><br></h3>
-      <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>FAQ</strong> <br> </h3>
-      <h3 style="margin-left:4rem;color:#fff; font-size:18px;"> <strong>Blog</strong> </h3>
-
-
-      <div class="row float-right" style="padding-left: 8rem;">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/facebook.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
-        <img class="sizeIcons" src="/assets/Assets Papaya Fit/twitter-logo-silhouette.png" alt="">
-      </div>
-    </div>
-    <div style="margin-left: 26rem; color: #fff;align-self: center;margin-top: 1px;">
-      <p>__________________________________________________________</p>
-    </div>
-    <div class="row" style="margin-left:26rem;">
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;"> Seguridad</small>
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;">Aviso de Privacidad</small>
-      <small style=" margin-left:25px;color:#fcbd6b; font-size: 13px;">Términos y Condiciones</small>
-    </div>
-
-    <div style=" margin-top: 2rem;">
-      <small style="margin-left: 17rem; color: #fff;">
-        @PapayaFit, 2019, Todos los derechos reservados
-        <a href="" class="link-powered">
-          Supernova Apps
-        </a>
-      </small>
-
-    </div>
-
-
-  </footer>
-
-</body>
-
-</html> -->

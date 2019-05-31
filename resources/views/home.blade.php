@@ -10,6 +10,9 @@
 <meta property="og:title" content="TITULO DE LA PAGINA" />
 <meta property="og:description" content="BREVE DESCRIPCIÓN" />
 <meta property="og:image" content="URL DE IMAGEN CORRESPONDIENTE 1200px ANCHO X 630px ALTO" />
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
 @endsection
 
 @section('title')
@@ -21,225 +24,371 @@ Inicio
 @endsection
 
 @section('content')
-<div class="fondo">
-  <!-- @yield('content') -->
-  <!-- <br><br> <br><br> <br><br> <br><br>-->
-  <div class="my-10">
-    <img src="/assets/Assets Papaya Fit/Logo con Slogan y Papaya.png" alt="Logotipo" class="papayalogo">
+<div class="image-back">
+
+<div class="col-md-6">
+
+  <div class="row">
+    <div class="col-md-12 mt-5">
+      <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="Logotipo" class="logopapaya">    
+    </div>
+    <div class="col-md-12">
+      <h1 class="section-one-text"><strong>La mejor nutrición</strong></h1>
+      <h1 class="section-one-text"><strong>a tu medida en tan</strong></h1>
+      <h1 class="section-one-text"><strong>solo 7 pasos.</strong></h1>
+      <p>Planes de alimentación prácticos, ricos y variados. En papaya fit no nos adaptamos al alimento, lo adaptamos a tu
+      estilo de vida! En tan solo 7 clics. Alcanzar tu objetivo nunca fue tan fácil</p>
+      <h3><a href="/comenzar" class="link-start">Comienza <img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt=""></a> </h3>
+    </div>
+
   </div>
-  <h1 style="padding-left: 50px;" class="textonutricion"><strong>La mejor nutrición</strong></h1>
-  <h1 style="padding-left: 50px;" class="textonutricion"><strong>a tu medida en tan</strong></h1>
-  <h1 style="padding-left: 50px;" class="textonutricion"><strong>solo 6 pasos.</strong></h1>
-  <div style="text-align: justify; width: 40rem; padding-left: 50px; color: #be6301; font-size: 18px;">
+  
+</div>
+<div class="col-md-6">
+  
+</div>
+  <!-- <div class="col-4 my-10">
+    <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="Logotipo" class="logopapaya">
+  </div>
+  <div class="col-12 paragraph-one">
+    <h1 class="section-one-text"><strong>La mejor nutrición</strong></h1>
+    <h1 class="section-one-text"><strong>a tu medida en tan</strong></h1>
+    <h1 class="section-one-text"><strong>solo 7 pasos.</strong></h1>
+  </div>
+
+  <div class="col-10 paragraph-two">
     <p>Planes de alimentación prácticos, ricos y variados. En papaya fit no nos adaptamos al alimento, lo adaptamos a tu
-      estilo de vida! En tan solo 6 clics. Alcanzar tu objetivo nunca fue tan fácil</p>
+      estilo de vida! En tan solo 7 clics. Alcanzar tu objetivo nunca fue tan fácil</p>
   </div>
-  <div class="row" style="padding-left:4rem; padding-top: 2rem;">
-    <a href="/comenzar">
-      <h3 style="color:#fff;">Comienza <img class="felcha" src="/assets/Assets Papaya Fit/Flecha.png" alt=""> </h3>
-    </a>
+  <div class="container-fluid">
+    <div class="row start-btn">
+      <div class="col-12">
 
-  </div>
+        <h3><a href="/comenzar" class="link-start">Comienza <img class="felcha"
+              src="/assets/Assets Papaya Fit/Flecha.png" alt=""></a> </h3>
+      </div>
+
+    </div>
+  </div> -->
+
 </div>
 
-<div class="fondo2">
-  <br><br><br><br><br><br><br><br>
-  <div style="padding-left: 600px;">
-    <h1 class="textonutricion2"><strong>Si tú eres único</strong></h1>
-    <h1 class="textonutricion2"><strong>¿por qué tu dieta no?</strong></h1>
-    <!-- <h5 style="color:#9FC40A;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut
-      labore et dolore magna aliqua.</h5> -->
-    <br>
-    <div class="textofondo2">
-      <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-        <h4 style="padding-left: 2rem;">Más de 15 menús mensuales</h4>
-      </div>
-      <h4 style="padding-left:4rem;">100% perzonalizados</h4><br>
 
-      <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-        <h4 style="padding-left: 2rem;">Se ajusta a todo tipo de rutinas</h4>
-      </div>
-      <h4 style="padding-left:4rem;">y estilos de vida</h4><br>
 
-      <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-        <h4 style="padding-left: 2rem;">Sin necesitar de calendarización</h4>
+<div class="image-back2">
+  <div class="div-section2">
+    <div class="paragraph-three">
+      <strong>Si tú eres único,</strong>
+      <strong>¿por qué tu dieta no?</strong>
+    </div>
+    <div class="paragraph-four">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+              <h4 style="padding-left: 2rem;">Más de 15 menús mensuales</h4>
+
+            </div>
+            <h4 style="padding-left:4rem;">100% perzonalizados</h4><br>
+          </div>
+        </div>
+
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+              <h4 style="padding-left: 2rem;">Se ajusta a todo tipo de rutinas</h4>
+            </div>
+          </div>
+        </div>
+        <h4 style="padding-left:4rem;">y estilos de vida</h4><br>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+              <h4 style="padding-left: 2rem;">Sin necesitar de calendarización</h4>
+            </div>
+          </div>
+        </div>
       </div><br>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
+              <h4 style="padding-left: 2rem;">Seguimiento 24 hrs</h4>
+            </div>
 
-      <div class="row"> <img src="/assets/Assets Papaya Fit/Checkmark.png" class="icono" alt="">
-        <h4 style="padding-left: 2rem;">Seguimiento 24 hrs</h4>
+          </div>
+
+        </div>
       </div>
+
       <div style="padding-top: 4rem;">
-        <a href="comenzar">
-          <button class="btncomienza" style="font-size: 19px;  font-family: 'Open Sans';">Comienza tu plan</button>
-        </a>
+        <button class="btn-start" style=""><a href="/comenzar" class="link-start">Comienza tu plan </a></button>
       </div>
 
     </div>
   </div>
 </div>
-<div style="padding-left: 70px;" class="col-12">
-  <h1 style="text-align: center;"> <strong>Tu plan perfecto más</strong></h1>
-  <h1 style="text-align: center; margin-bottom: 100px;"><strong>fácil que nunca</strong></h1>
-  <div class="row col-12">
-    <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/vector.png" alt="" class="icono2">
-      <div style="padding-top:2rem;">
-        <h3 style="text-align:center; color:#f6a60e">TOMA EL QUIZ</h3>
-        <h4 style="text-align: center; font-size: 17px">Queremos conocerte! En tan solo 6 clics sabremos lo necesario
-          para formar tu plan perfecto.</h4>
-      </div>
-    </div>
-    <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/doctor.png" alt="" class="icono2">
-      <div style="padding-top:2rem;">
-        <h3 style="text-align:center; color:#f6a60e">EMPIEZA TU PLAN</h3>
-        <h4 style="text-align: center; font-size: 17px">El secreto para alcanzar tu objetivo es simplemente empezar.
-          Dicen que para alcanzarlo no hay que tener un sueño sino un plan, nosotros te lo damos!</h4>
-      </div>
-    </div>
-    <div class="divcards">
-      <img src="/assets/Assets Papaya Fit/Icons/computer.png" alt="" class="icono2">
-      <div style="padding-top:2rem;">
-        <h3 style="text-align:center; color:#f6a60e">COME DIFERENTE</h3>
-        <h4 style="text-align: center; font-size: 17px">Todo cambio tiene un proceso clave de adaptación. Existen
-          teorías de que la formación de un hábito tarda entre 21 y 66 días. Implica la creación de nuevas neuronas y
-          que para que esto suceda es necesario la formación de recuerdos y aprendizaje. Danos 2 meses y formemos
-          hábitos juntos! Crea recuerdos con nosotros, compártelos utilizando #papayafit. </h4>
+
+<div class="sectionthree">
+  <div class="paragraph-five">
+    <h1> <strong>Tu plan perfecto más</strong></h1>
+    <h1><strong>fácil que nunca</strong></h1>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12">
+        <div class="row">
+          <div class="divcards">
+            <img src="/assets/Assets Papaya Fit/Icons/vector.png" alt="" class="icono2">
+            <div style="padding-top:2rem;">
+              <h3 class="titlecards">TOMA EL QUIZ</h3>
+              <h4 class="textcards">Queremos conocerte! En tan solo 6 clics sabremos lo
+                necesario
+                para formar tu plan perfecto.</h4>
+            </div>
+          </div>
+          <div class="divcards">
+            <img src="/assets/Assets Papaya Fit/Icons/doctor.png" alt="" class="icono2">
+            <div style="padding-top:2rem;">
+              <h3 class="titlecards">EMPIEZA TU PLAN</h3>
+              <h4 class="textcards">El secreto para alcanzar tu objetivo es simplemente
+                empezar.
+                Dicen que para alcanzarlo no hay que tener un sueño sino un plan, nosotros te lo damos!</h4>
+            </div>
+          </div>
+          <div class="divcards">
+            <img src="/assets/Assets Papaya Fit/resultados/diet - copia.png" alt="" class="icono2">
+            <div style="padding-top:2rem;">
+              <h3 class="titlecards">COME DIFERENTE</h3>
+              <h4 class="textcards">Todo cambio tiene un proceso clave de adaptación. Danos 2
+                meses y formemos
+                hábitos juntos!. Crea recuerdos con nosotros y compártelos utilizando #papayafit. </h4>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div>
-    <img src="/assets/Assets Individuales Papaya Fit/iMac 27_.png" alt="" class="pantalla">
+
+
+<div class="clearfix">
+  <div class="float-left">
+    <img src="/assets/Assets Individuales Papaya Fit/iMac 27_.png" alt="" class="img-mac">
   </div>
-  <div>
-    <div class="row" style="padding-left: 90px;">
-      <h1><strong>¿Por qué <br></strong></h1>
-      <h1 style="color:#f6a60e;"><strong> Papaya Fit</strong></h1>
+  <div class="float-right">
+    <div class="container-fluid">
+      <div class="row">
+        <h1><strong>¿Por qué <br></strong></h1>
+        <h1 style="color:#f6a60e;"><strong> Papaya Fit</strong></h1>
+      </div>
     </div>
-    <div style="padding-left: 90px;">
+    <div>
       <h1><strong>es tu mejor opción?</strong></h1>
     </div><br>
-    <div class="divpantalla" style="padding-left: 90px;">
-      <h4 style="color:#f6a60e;"><strong>100% Perzonalizado</strong></h4>
-      <h5 style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor
-        incidunt ut labore et dolore magna aliqua.</h5>
+    <div class="text-mac">
+      <h4 class="titles-mac"><strong>100% Perzonalizado</strong></h4>
+      <h5>Cuidamos que cada menú tenga los requerimientos necesarios para cada persona.</h5>
     </div>
-    <div class="divpantalla" style="padding-left: 90px;">
-      <h4 style="color:#f6a60e;"><strong>Nutriólogas Certificadas</strong></h4>
-      <h5 style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor
-        incidunt ut labore et dolore magna aliqua.</h5>
+    <div class="text-mac">
+      <h4 class="titles-mac"><strong>Nutriólogas Certificadas</strong></h4>
+      <h5>Hecho por nutriólogas especializadas en lograr un cambio de impacto.</h5>
     </div>
-    <div class="divpantalla" style="padding-left: 90px;">
-      <h4 style="color:#f6a60e;"><strong>Fácil Acceso</strong></h4>
-      <h5 style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor
-        incidunt ut labore et dolore magna aliqua.</h5>
+    <div class="text-mac">
+      <h4 class="titles-mac"><strong>Fácil Acceso</strong></h4>
+      <h5>En donde estés y desde cualquier dispositivo puedes tener tu plan ideal.</h5>
     </div>
   </div>
+</div> 
 
-</div>
-<div class="row" style="margin-top: 7rem">
-  <div style="margin-left: 10rem; width: 250px;margin-top: 4rem">
-    <strong style="font-size: 3rem;">Planes a tu </strong>
-    <strong style="font-size: 3rem;">medida</strong>
-    <h5 style="color: #FF9D00"> labore et dolore magna aliqua.</h5>
-    <strong style="padding-top:1rem;">
-      <a href="comenzar">
-        <p style="color:#FF9D00">Escoge tu plan
-          <img style="width: 15px; height: 15px;" src="/assets/Assets Papaya Fit/Vector.png" alt="">
-        </p>
-      </a>
-    </strong>
-  </div>
-
-  <!--DIVPRECIOS-->
-  <div style="width: 23rem; height: 18rem; border-width: 1px;border-radius: 30px; text-align:center; margin-left: 4rem;"
-    class="sombraprecios">
-    <div
-      style="width:23rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-      <div style="padding-top:2rem;">
-        <strong style="font-size:20px; color:#fff;">Pago Único</strong>
+<div class="container-fluid">
+  <div class="row" style="margin-top: 7rem">
+    <div class="col-12">
+      <div class="row">
+        <div class="title-prices">
+          <strong style="font-size: 3rem;">Planes a tu </strong>
+          <strong style="font-size: 3rem;">medida</strong>
+          <!-- <h5 style="color: #FF9D00"> labore et dolore magna aliqua.</h5> -->
+          <strong style="padding-top:1rem;">
+            <a href="comenzar">
+              <p style="color:#FF9D00">Escoge tu plan
+                <img style="width: 15px; height: 15px;" src="/assets/Assets Papaya Fit/Vector.png" alt="">
+              </p>
+            </a>
+          </strong>
+        </div>
+        <!--DIVPRECIOS-->
+        <div class="div-prices shadow-prices">
+          <div class="head-prices">
+            <div style="padding-top:2rem;">
+              <strong class="price">Pago Único</strong>
+            </div>
+          </div>
+          <div style="padding:1rem;">
+            <strong class="prices">$299</strong>
+            <p class="prices-text-one">Plan de alimentación mensual de 1 mes con mas de 15 menús a tu
+              disposición</p>
+            <p class="prices-text-two">Cancela cuando quieras</p>
+          </div>
+        </div>
+        <div class="div-prices shadow-prices">
+          <div class="head-prices">
+            <div style="padding-top:2rem;">
+              <strong class="price">Suscripción mensual</strong>
+            </div>
+          </div>
+          <div style="padding:1rem;">
+            <strong class="prices">$199</strong>
+            <p class="prices-text-two">*Cargo mensual recurrente</p>
+            <p class="prices-text-one">Plan de alimentación mensual más material adicional</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div style="padding:1rem;">
-      <strong style="font-size: 70px">$299</strong>
-      <p style="font-size: 15px; color: #696969">plan de alimentación mensual de 1 mes con mas de 15 menús a tu
-        disposición</p>
-      <p style="font-size: 10px; color: #696969">cancela cuando quieras</p>
-    </div>
+    <!--DIVPRECIOS-->
   </div>
-  <div
-    style="width: 23rem; height: 18rem; border-width: 1px;border-radius: 30px; text-align:center;  margin-left: 4rem;"
-    class="sombraprecios">
-    <div
-      style="width:23rem; height:5rem; background-color: #FF9D00;  border-top-right-radius: 30px; border-top-left-radius: 30px; text-align: center;">
-      <div style="padding-top:2rem;">
-        <strong style="font-size:20px; color:#fff;">Suscripción anual</strong>
-      </div>
-    </div>
-    <div style="padding:1rem;">
-      <strong style="font-size: 70px">$199</strong>
-      <p style="font-size: 10px; color: #696969">*cargo mensual recurrente</p>
-      <p style="font-size: 15px; color: #696969">plan de alimentación mensual más material adicional</p>
-
-    </div>
-  </div>
-  <!--DIVPRECIOS-->
 </div>
-<br> <br> <br>
-<div style="text-align: center" class="col-12">
+
+
+<div class="text-community">
   <h1><strong>Bienvenido a la</strong></h1>
   <h1><strong> comunidad más</strong> <strong style="color:#b2cd45">fit</strong>
   </h1>
-  <div style="text-align: center">
-    <h5 style="color:#f6a60e;">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit
-    </h5>
-  </div>
-
-</div>
-<br>
-<div class="row col-12" style="padding-left:60px;">
-  <div class="divcomu sombra">
-    <img style="border-radius: 150px; width: 150px; height: 150px; margin-left: 80px;"
-      src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-    <h3 style="text-align:center;font-size: 20px; color:#000000"> <strong>Humberto Gómez</strong> </h3>
-    <p style="text-align:center; color:#f6a60e;">Comunity Manager</p>
-    <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua..</h4>
-  </div>
-  <div class="divcomu sombra">
-    <img style="border-radius: 150px; width: 150px; height: 150px; margin-left: 80px;"
-      src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-    <h3 style="text-align:center; font-size: 20px; color:#000000"><strong>Susana Aguilar</strong> </h3>
-    <p style="text-align:center; color:#f6a60e;">Veterinaria</p>
-    <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h4>
-  </div>
-  <div class="divcomu sombra">
-    <img style="border-radius: 150px; width: 150px; height: 150px; margin-left: 80px;"
-      src="/assets/Assets Papaya Fit/Foto Doctora.png" alt="" class=""><br><br>
-    <h3 style="text-align:center;font-size: 20px; color:#000000"> <strong>Alfonso Ojeda</strong> </h3>
-    <p style="text-align:center; color:#f6a60e;">Abogado Fiscal</p>
-    <h4 style="text-align: center; font-size: 17px">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h4>
-  </div>
 </div>
 
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height: 43rem">
+      <div class="container-fluid">
+        <div class="row" style="padding-left:60px; padding-top: 1rem;">
+          <div class="col-12">
+            <div class="row">
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/ixel.jpg" alt="" class="">
+                <h3 class="name-community"> <strong>Ixel Avitia</strong> </h3>
+                <p class="profession-community">Estilista</p>
+                <h4 class="paragraph-community">
+                  Hace 3 años comencé con una vida sana, inicie este proceso pesando 89 kilos, más que por estética fue
+                  por salud, al caminar no alcanzaba respirar y tenía dolor de cabeza todo el tiempo ya que hace 9 años
+                  dar a luz tuve eclampsia, estuve casi al borde la muerte. <br> Actualmente he bajado 17 kg. Tuve a mi
+                  segundo bebe con un embarazo muy saludable en el cual solo aumenté 4 kg. Tenía una meta y esa era
+                  convertirme en madre por segunda vez y lo mejor es que me quedo un estilo de vida. Invierte en
+                  nutrición y ahorrarás en medicinas.
+                </h4>
+              </div>
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/karina.jpg" alt="" class="">
+                <h3 class="name-community"><strong>Karina Infante</strong> </h3>
+                <p class="profession-community">Estudiante de gastronomía</p>
+                <h4 class="paragraph-community">
+                  Una de las experiencias más gratas ha sido formar parte de una vida saludable, y también fue una de
+                  las decisiones más difíciles pero sin duda la mejor que he tomado. Comenzó por plan de bajar de peso y
+                  ahora es un estilo de vida. <br> Actualmente soy feliz con mi peso. El proceso fue un cambio
+                  completamente radical en mi vida. <br> Las dietas son súper variadas ricas y saludables, y recuerda
+                  querer es poder y si quieres puedes llegar a ser la mujer u Hombre que siempre deseaste, saludable y
+                  más confiado, únete ya a la vida saludable y motívate con tus cambios!
+                </h4>
+              </div>
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/monica.jpg" alt="" class="">
+                <h3 class="name-community"> <strong>Mónica Pérez</strong> </h3>
+                <p class="profession-community">Estudiante de preparatoria</p>
+                <h4 class="paragraph-community">
+                  Para mi ser párate de una vida fit me cambio mucho, adquirí buenos hábitos, estoy mejor conmigo misma,
+                  mi estado de salud y psicológicamente. Los planes de alimentación son muy ricos y cero estrictos. <br>
+                  Empecé a acostumbrarme a una vida mucho mejor, con más energía, me siento bien, cero cansada, menos
+                  estrés, he bajado 15kg. Sin duda invertir en mi nutrición fue una buena decisión! Además de una muy
+                  buena atención!
+
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide"> -->
+    </div>
+    <div class="carousel-item" style="height: 43rem">
+      <div class="container-fluid">
+        <div class="row" style="padding-left:60px; padding-top: 1rem;">
+          <div class="col-12">
+            <div class="row">
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/testimonio-4.jpg" alt="" class="">
+                <h3 class="name-community"> <strong>Guillermo Reyes</strong> </h3>
+                <p class="profession-community">Docente</p>
+                <h4 class="paragraph-community">
+                  En el mes de Julio de 2018 me detectaron más de 400mg/dl de glucosa, pesaba aproximadamente 150 kgs
+                  mido 1.84 m, cambie muchos hábitos alimenticios como el tomar refresco, beber cerveza etc. Pero en el
+                  mes de Septiembre de ese mismo año tuve un dolor muy intenso que culmino en una operación de vesícula.
+                  <br> A partir de Septiembre comencé a tratarme en la parte de Nutrición, hasta la fecha de usar
+                  pantalón talla 44 ahora uso talla 36, he bajado casi 40 kilogramos, puedo caminar sin cansarme, cambie
+                  mucho así como mi aspecto en general y me siento muy feliz.
+                  Trabajo todo el día en la docencia, ahora llevo mi alimentación en mi lonchera y no me malpaso.
+
+                </h4>
+              </div>
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/testimonio-5.jpg" alt="" class="">
+                <h3 class="name-community"><strong>Isabel Núñez</strong> </h3>
+                <p class="profession-community">Asistente</p>
+                <h4 class="paragraph-community">
+                  Hola, les platico mi experiencia desde que inicié mi plan de alimentación.
+                  Me acuerdo que tenía miedo de no poder bajar de peso ya que había intentado muchas cosas y no lo había
+                  conseguido pastillas, cremas, batidos entre otras que en el momento si me ayudaban a bajar un poco
+                  pero al dejarlo era peor porque venía un rebote, haber estado con asesoría nutricional fue la mejor
+                  decisión que pude tomar porque solo así comprendí que nada es milagroso, que solo los hábitos
+                  saludables y ejercicio te llevan a la meta. <br> Ya no tengo miedo de ir a comprar ropa porque ahora
+                  sí encuentro mi talla, soy más alegre y con ánimo de salir con mi familia a pasear e ir a las
+                  albercas. Muchas gracias por este cambio en mi vida.
+                </h4>
+              </div>
+              <div class="div-community shadow-community">
+                <img class="img-community" src="/assets/Assets Papaya Fit/monica.jpg" alt="" class="">
+                <h3 class="name-community"> <strong>Mónica Infante</strong> </h3>
+                <p class="profession-community">Estudiante de preparatoria</p>
+                <h4 class="paragraph-community">
+                  Para mi ser párate de una vida fit me cambio mucho, adquirí buenos hábitos, estoy mejor conmigo misma,
+                  mi estado de salud y psicológicamente. Los planes de alimentación son muy ricos y cero estrictos. <br>
+                  Empecé a acostumbrarme a una vida mucho mejor, con más energía, me siento bien, cero cansada, menos
+                  estrés, he bajado 15kg. Sin duda invertir en mi nutrición fue una buena decisión! Además de una muy
+                  buena atención!
+
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide"> -->
+    </div>
+    <!-- <div class="carousel-item">
+                    <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                  </div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
+
+
 @endsection
 
 @section('js')
