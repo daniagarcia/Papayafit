@@ -99,12 +99,37 @@ class UserController extends Controller
 	 * @param  \Illuminate\Http\Request  $request
 	 * @return \Illuminate\Http\Response
 	 */
+	// public function store(Request $request) {
+   
+			
+	// 	// $data = $request->all();
+	// 	// return Hash::make($data['password']);
+	// 	// $user = User::where('email', '=', $data['email'])->where('active', '=', 1)->first();
+	// 	// if ($data) {
+	// 		$user           = new User();
+	// 		$user->email    = $request->input('email');
+	// 		$user->password = Hash::make( $request->input('password'));
+	// 		$user->status   = 1;
+	// 		$user->image    = null;
+	// 		$user->token    = md5($request->input('email'));
+	// 		$user->rol_id = 1;
+	// 		$user->save();
+	// 		return response()->json([
+	// 			'status'  => 200,
+	// 			'title'   => "Perfecto",
+	// 			'message' => 'El recurso ha sido creado correctamente',
+	// 			'type'    => 'success',
+	// 			'data'    => $user,
+	// 			'pass'	  => $request->password  
+	// 		]);
+	// 	// }
+	// }
 	public function store(Request $request) {
 		$data = $request->all();
-		$validator = Validator::make($request->all(), [
+		$validator = Validator::make($request->all(), [ 
 			'email' => 'required|string|email|max:255',
-			'password' => 'required|string|min:6|confirmed',
-			'fullname' => 'required|string|max:255'
+			'password' => 'required|string|min:6',
+			
 		]);
 
 		if($validator->fails()){
@@ -115,20 +140,15 @@ class UserController extends Controller
 
 		if (!$user) {
 			$user           = new User();
-			$user->email    = $data['email'];
-			$user->password = Hash::make($data['password']);
+			$user->email    = $request->input('email');
+			$user->password = Hash::make($request->input('password'));
 			$user->status   = 1;
-			$user->image    = "profile_default.png";
-			$user->token    = md5($data['email']);
+			$user->username = $request->input('username');
+			$user->token    = md5( $request->input('email'));
 			$user->rol_id   = 1; // Cambiar ajuste a real
 			$user->save();
 
-			$people = new People();
-			$people->fullname = $data['fullname'];
-			// $people->gender = $data['gender'];
-			// $people->birthday = $data['birthday'];
-			// $people->phone = $data['phone'];
-			$people->user_id = $user->id;
+		
 			$people->save();
 
 			$token = JWTAuth::fromUser($user);
@@ -137,6 +157,46 @@ class UserController extends Controller
 		}
 	}
 
+	// public function store(Request $request) {
+
+		//original
+	// 	$data = $request->all();
+	// 	$validator = Validator::make($request->all(), [ 
+	// 		'email' => 'required|string|email|max:255',
+	// 		'password' => 'required|string|min:6',
+	// 		'fullname' => 'required|string|max:255',
+			
+	// 	]);
+
+	// 	if($validator->fails()){
+	// 		return response()->json($validator->errors(), 400);
+	// 	}
+
+	// 	$user = User::where('email', $data['email'])->where('status', 1)->first();
+
+	// 	if (!$user) {
+	// 		$user           = new User();
+	// 		$user->email    = $data['email'];
+	// 		$user->password = Hash::make($data['password']);
+	// 		$user->status   = 1;
+	// 		$user->image    = null;
+	// 		$user->token    = md5($data['email']);
+	// 		$user->rol_id   = 1; // Cambiar ajuste a real
+	// 		$user->save();
+
+	// 		$people = new People();
+	// 		$people->fullname = $data['fullname'];
+	// 		// $people->gender = $data['gender'];
+	// 		// $people->birthday = $data['birthday'];
+	// 		// $people->phone = $data['phone'];
+	// 		$people->user_id = $user->id;
+	// 		$people->save();
+
+	// 		$token = JWTAuth::fromUser($user);
+
+    //         return response()->json(compact('user', 'token', 'people'), 201);
+	// 	}
+	// }
 	/**
 	 * Display the specified resource.
 	 *
@@ -187,15 +247,24 @@ class UserController extends Controller
 	}
 
 	public function verify() {
-		$verify = User::join('roles', 'users.rol_id', '=', 'roles.id')
-		->where('users.id', '=', Auth::user()->id)
+		
+		$verify = User::where('id', '=', Auth::user()->id)
 		->where('users.status', '=', 1)
-		->select('roles.*')
 		->first();
+
+		print_r($verify);
 
 		return response()->json([
 			'status'  => ($verify) ? 200 : 404,
 			'data'    => $verify
 		]);
 	}
+
+
+
+
+	public function render(){
+		 return view('templates.log');
+    }
+
 }

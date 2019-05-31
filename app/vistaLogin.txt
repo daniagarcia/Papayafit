@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <meta name="Title" content="">
+    <meta name="keywords" content="your, tags"/>
+    <meta name="description" content="150 words"/>
+    {{-- Facebook --}}
+    <meta property="og:type" content="website" />
+    <meta property='og:url' content="{{ env('APP_URL') }}/[ruta]"/>
+    <meta property="og:title" content="TITULO DE LA PAGINA" />
+    <meta property="og:description" content="BREVE DESCRIPCIÓN"/>
+    <meta property="og:image" content="URL DE IMAGEN CORRESPONDIENTE 1200px ANCHO X 630px ALTO" />
+    <!-- <link rel="shortcut icon" href="/assets/images/logos/selectonerlogop5.png"> -->
+
+
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="url" content="{{ env('APP_URL') }}">
+      <meta name="api" content="{{ env('API_URL') }}" id="api-url">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta http-equiv="X-UA-Compatible" content="IE=7">
+      <meta name="theme-color" content="Primary Color">
+      <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <link rel="stylesheet" href="/css/access.min.css?{{rand()}}">
+    <!-- <link rel="stylesheet" href="/css/productos.min.css"> -->
+
+  </head>
+  <body class="fondo">
+  <!-- background="/assets/images/logos/papper.jpg" -->
+  <div class="container">
+
+  <!-- <img style='position: absolute; display: flex;' src="/assets/images/logos/selectonerlogo.png" alt=""> -->
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6  ">
+          <div class="card text-center sombra">
+            <div class="">
+            <!-- <img src="/assets/images/logos/selectonerlogop1.png" alt=""> -->
+            </div>
+            <div class="card-body">
+              <form id="form-login sombra"  action="/api/login">
+                <div class="input-group input-group-right mb-3">
+                  <input type="email" class="form-control" placeholder="" name="email" id="username" value="hola@papayafit.com">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon1">
+                      <i class="fas fa-lock"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="input-group input-group-left mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                      <i class="fas fa-key"></i>
+                    </span>
+                  </div>
+                  <input type="password" class="form-control" name="Contraseña" id="password" value="">
+                </div>
+                <!-- <button type="button" class="btnprod"  id="login" title="Entrar"> -->
+                <!-- <i class="fas fa-sign-in-alt"></i> LOGIN
+              </button> -->
+              <button type="button" class="btnprod"  id="login" title="Entrar">
+                <i class="fas fa-sign-in-alt"></i> LOGIN
+               </button>
+              </form>
+            </div>
+            <div class="card-footer text-right">
+              <!-- <a href="/olvide-mi-contrasena" class="btn btn-primary btn-round" id="passrecover" title="Olvidé mi contraseña">
+                <i class="fas fa-question"></i>
+              </a> -->
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </body>
+  </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="url" content="{{ env('APP_URL') }}">
+  <meta name="api" content="{{ env('API_URL') }}" id="api-url">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="theme-color" content="Primary Color">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  @yield('meta')
+
+  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/Logo S/papaya.png">
+  <link rel="stylesheet" href="/css/dashboard.min.css?{{rand()}}">
+  <link rel="stylesheet" href="/css/landingpapaya.min.css">
+
+  <link rel="shortcut icon" href="/assets/Assets Papaya Fit/PapayaLogo.png">
+  @yield('css')
+
+  @section('css')
+  <link rel="stylesheet" href="/css/home.min.css">
+  <link rel="stylesheet" href="/css/landingpapaya.min.css">
+
+  @endsection
+
+  <title>Login</title>
+</head>
+
+
+<body>
+
+
+<footer class="morado" >
+    <div class="">
+        <div class="clearfix" style="margin-left: 8rem; margin-right: 60px;">
+        <!-- <div class="col-4 my-10">
+          <img src="/assets/Assets Papaya Fit/PapayaLogo.png" alt="Logotipo" style="height: 17rem;">
+        </div> -->
+          <!-- <strong style="font-family:Open Sans; font-size: 60px;">Tu plan de alimentación</strong> <br>
+          <strong style="font-family:Open Sans; font-size: 60px; color:#FF9D00;">perzonalizado </strong> -->
+           <strong  style="font-family:Open Sans; font-size: 3rem; color:orange">¡Bienvenido!</strong><br>
+           <strong  style="font-family:Open Sans; font-size: 3rem;">Tu plan de nutrición</strong><br>
+           <strong  style="font-family:Open Sans; font-size: 3rem;">te espera</strong><br>
+           <p style="font-size: 20px;">Nombre del usuario:</p>
+           <input style="height: 3rem;" class="txtinput" type="text" placeholder="" id="">
+           <p style="font-size: 20px;">Contraseña:</p>
+           <input style="height: 3rem;" class="txtinput" type="text" placeholder="" id="">
+      
+          
+           <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label style="font-size:15px;" class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+        </div>
+        <div style="padding-top: 4rem;">
+              <button class="btn-start" style=""><a href="/pasodos" class="link-start" style="color:#fff; font-size:2rem;">Entrar</a></button>
+            </div>
+          </div>
+         
+      </div>
+  <!-- <img src="/assets/Assets Papaya Fit/footer-morado.png" alt=""> -->
+    <div class="container-fluid">
+        <div class="row" style="padding-left: 19rem; padding-top: 10rem;">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+          <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">       
+            <p class="hashtag-papayaa" style="color:aqua">#papayafit</p>
+            
+          <br><br>        
+        </div>
+      </div>
+    
+        <small style="color:#fff;"> @PapayaFit, 2019, Todos los derechos reservados</small>
+    <!-- <div ></div> -->
+</footer>
+</body>
+</html

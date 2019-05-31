@@ -1,4 +1,10 @@
 @import "./config/_general"
+@import "./config/_home-landing"
+@import "./config/_us"
+@import "./config/_blog"
+@import "./config/_res"
+@import "./config/_calendar"
+@import "./config/_email"
 
 body
   padding-top: 5rem  
@@ -6,15 +12,22 @@ body
 .navbar-brand
   img
     width: 100%
-    max-width: 7rem
+    max-width: 4rem !important
 
-footer
-  min-height: 2rem
-  padding: 2rem
-  background-color: $color-primary
-  margin-top: 2rem
+.nav-background
+    background-color: #ffd261
 
-#root-content
+.landing-footer
+  // min-height: 2rem
+  // padding: 2rem
+  // background-color: $color-primary
+  // margin-top: 2rem
+  background-image: url("/assets/Assets Individuales Papaya Fit/Footer Fondo.png")
+  background-size: cover !important
+  background-position: center !important
+  background-repeat: no-repeat !important
+
+#root-content 
   box-sizing: border-box
   padding-top: 2rem
   padding-bottom: 2rem
@@ -24,3 +37,144 @@ footer
 
 #root-content
   min-height: 80.5%
+
+
+.logopapaya-nav
+  width: 60px
+
+.text-nav
+  font-size: 15px
+  text-align: center
+  color: #f6a60e
+
+.btn-start-nav
+  background-color:#9FC40A
+  font-size: 15px
+  text-align: center
+  color: #fff
+
+.text-link
+  color: #fff
+
+.papayalogofooter
+  height: 220px
+  width: 200px
+  margin-top: 15rem
+  margin-left: 8rem
+
+.menu-footer
+  margin-left: 26rem
+  align-self: center
+  // margin-top: 20rem
+  font-size: 18px
+  padding-top: 19rem
+
+.menu-footer2
+  margin-left:4rem !important
+  color:#fff !important
+  font-size:18px !important
+
+.sizeIcons
+  widows: 35px
+  height: 35px
+  margin-left:3rem !important
+
+.hashtag-papaya
+  font-size: 22px
+  color: #fff
+  font-weight: bold
+  margin-left:3rem !important
+
+.line-footer
+  margin-left: 26rem
+  color: #fff
+  align-self: center
+  margin-top: 1px
+
+.icon-email
+  width: 30px
+  height: 30px
+
+.text-email
+  color:#fff
+  padding-left: 64rem
+
+.doc-footer
+   margin-left:25px !important
+   font-size: 13px
+   color:#ed8410
+
+.rights-footer
+  margin-left: 30rem
+  color: #fff
+
+.terminos
+  margin-left: 26rem
+   
+
+@media (max-width: 576px) 
+  .landing-footer
+    height: 28rem
+    width: 36rem
+
+@media (max-width: 576px) 
+  .papayalogofooter
+    height: 100px
+    width: 100px
+    margin-top: 8rem
+    margin-left: 1rem
+
+@media (max-width: 576px)
+  .menu-footer
+    margin-left: 8rem
+    padding-top: 12rem
+
+@media (max-width: 576px)
+  .text-email
+    padding-left: 12rem
+
+@media (max-width: 576px)
+  .line-footer
+    margin-left: 0px
+    color: transparent
+
+@media (max-width: 576px)
+  .terminos
+    margin-left: 5rem
+
+@media (max-width: 576px)
+  .rights-footer
+    margin-left: 9rem
+//--------------------------------------------------------------------------------------
+@media (max-width: 768px)
+  .landing-footer
+    height: 28rem
+  
+@media (max-width: 768px) 
+  .papayalogofooter
+    height: 100px
+    width: 100px
+    margin-top: 8rem
+    margin-left: 1rem
+
+@media (max-width: 768px)
+  .menu-footer
+    margin-left: 8rem
+    padding-top: 12rem
+
+@media (max-width: 768px)
+  .text-email
+    padding-left: 12rem
+
+@media (max-width: 768px)
+  .line-footer
+    margin-left: 0px
+    color: transparent
+
+@media (max-width: 768px)
+  .terminos
+    margin-left: 5rem
+
+@media (max-width: 768px)
+  .rights-footer
+    margin-left: 9rem

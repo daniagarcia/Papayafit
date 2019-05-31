@@ -1,14 +1,16 @@
+
 // Variables
 @import "./config/_variables"
+@import "./config/_mixins"
 // Bootstrap
 @import "~bootstrap/scss/bootstrap"
 // Element Style
 @import "~element-ui/lib/theme-chalk/index.css"
 // Fontawesome
 @import "../../libs/fontawesome-free-5.3.1/css/all.min"
+@import "./config/_quiz"
+// @import "./config/_start"
 
-
-*
   outline: 0 !important
   font-family: $font
   transition: .4s !important
@@ -104,3 +106,14 @@ div[class*='el-input-'], div[class='el-select']
   width: 3rem 
   height: 3rem  
   text-align: center  
+
+.btn-start
+  color: #fff
+  background-color: #ff9d00
+  border-color: #ff9d00
+  width: 310px
+  height: 65px
+  border-radius: 1rem
+  font-size: 15px
+  font-size: 19px
+  font-family: 'Open Sans'
