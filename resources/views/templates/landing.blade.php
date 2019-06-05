@@ -82,7 +82,128 @@
   </div>
 
 
-  <footer class="clearfix landing-footer">
+
+  <!-- <div class="landing-footer">  -->
+    <!-- <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-4 d-flex flex-center mb-5 mb-lg-0">
+                <img src=" {{ asset('assets/Assets Papaya Fit/LogoPapayaFitDos.png') }} " alt="Logo" class="papayalogofooter img-fluid w-50">
+            </div>
+            <div class="col-12 col-lg-4 order-lg-3 d-flex flex-center mb-5 mb-lg-0">
+            <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+            <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+            <p class="hashtag-papaya"> <a href="" class="text-link">#papayafit</a></p>
+        
+            </div>
+            <div class="col-12 col-lg-4 d-flex flex-center">
+                <ul class="footer-links mb-0">
+                    <li class="footer-item mb-0"><a href="" class="footer-link"></a>Inicio</li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link"></a>Nosotros</li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link">FAQ</a></li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+<!-- </div> -->
+<footer class="landing-footer">
+      <div class="float-left">
+      <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="" class="papayalogofooter">
+    </div>
+    <div class="container-fluid pt-3">
+      <!-- <div class="col-12"> -->
+          <iv class="row menufooter">
+              <!-- <div class="col-12"> -->
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                <p><a href="/" class="text-link">Inicio</a></p>
+                <!-- <img class="icon-email" src="/assets/Assets Papaya Fit/sobre mail.png" alt=""> -->
+              </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                <p><a href="/nosotros" class="text-link">Nosotros</a></p>
+                <!-- <img class="icon-email" src="/assets/Assets Papaya Fit/sobre mail.png" alt=""> -->
+              </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                <p><a href="" class="text-link">FAQ</a></p>
+                <!-- <img class="icon-email" src="/assets/Assets Papaya Fit/sobre mail.png" alt=""> -->
+              </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                <p><a href="/blog" class="text-link">Blog</a></p>
+                <!-- <img class="icon-email" src="/assets/Assets Papaya Fit/sobre mail.png" alt=""> -->
+              </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                  <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+                </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                  <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+                </div>
+              <div class="col-lg-2 col-sm-12 col-xs-12">
+                  <p class=""> <a href="" class="text-link">#papayafit</a></p>
+                 
+                </div>
+          </div>
+          <div class="row terminos">
+              <small class="doc-footer"> Seguridad</small>
+              <small class="doc-footer">Aviso de Privacidad</small>
+              <small class="doc-footer"> <a style="color: #ed8410" href="/terminos">Términos y Condiciones</a></small>
+            </div>
+          <div style=" margin-top: 2rem;">
+            <small class="rights-footer">
+              <a style="color: #fff" href="https://www.supernovaapps.com.mx/">Powered By Supernova Apps MX,</a>
+             
+            </small>
+          </div>
+      <!-- </div> -->
+  
+      <!-- <hr> -->
+    </div>
+    <!-- <div class="row" style="">
+       
+        
+       
+        <br><br>
+      </div> -->
+       
+    <!-- <div class="col-12 col-lg-4 d-flex flex-center">
+                <ul class="footer-links mb-0">
+                    <li class="footer-item mb-0"><a href="" class="footer-link"></a>Inicio</li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link"></a>Nosotros</li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link">FAQ</a></li>
+                    <li class="footer-item mb-0"><a href="" class="footer-link">Blog</a></li>
+                </ul>
+            </div> -->
+    <!--<div class="row menu-footer">
+      <a href="/" class="text-link"><strong style="color:#fff;">Inicio</strong></a><br>
+      <a href="/nosotros" class="text-link"><strong class="menu-footer2">Nosotros</strong></a><br>
+      <a href="" class="text-link"><strong class="menu-footer2">FAQ</strong></a><br>
+      <a href="/blog" class="text-link"><strong class="menu-footer2">Blog</strong> </a> -->
+
+      <!-- <div class="row float-right" style="padding-left: 8rem;">
+        <img class="sizeIcons" src="/assets/Assets Papaya Fit/icons8-facebook-480.png" alt="">
+        <img class="sizeIcons" src="/assets/Assets Papaya Fit/instagram.png" alt="">
+        <p class="hashtag-papaya"> <a href="" class="text-link">#papayafit</a></p>
+        <br><br>
+      </div> -->
+    <!-- </div>
+    <div class="line-footer">
+      <p>__________________________________________________________</p>
+    </div>
+    <p class="text-email"> <img class="icon-email" src="/assets/Assets Papaya Fit/msj.png" alt="">
+      hola@papayafit.com</p>
+
+    <div class="row terminos">
+      <small class="doc-footer"> Seguridad</small>
+      <small class="doc-footer">Aviso de Privacidad</small>
+      <small class="doc-footer">Términos y Condiciones</small>
+    </div>
+
+    <div style=" margin-top: 2rem;">
+      <small class="rights-footer">
+       Powered By Supernova Apps MX,
+      </small>
+    </div> -->
+  </footer>
+
+  <!-- <footer class="clearfix landing-footer">
     <div class="float-left">
       <img src="/assets/Assets Papaya Fit/LogoPapayaFitDos.png" alt="" class="papayalogofooter">
     </div>
@@ -116,7 +237,7 @@
         @PapayaFit, 2019, Todos los derechos reservados
       </small>
     </div>
-  </footer>
+  </footer> -->
 
 
   @yield('js')
