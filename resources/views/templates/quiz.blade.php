@@ -48,7 +48,7 @@
       </div>
       <div class="clearfix div-answers">
         <div onclick="nextPrev(1)" oninput="this.className = ''" id="res1" class="divquiz">
-          <div onClick="objetivo()" class="divquiz2 objetivo"  data-objetivo="100">
+          <div onClick="objetivo()" class="divquiz2 objetivo"  data-objetivo="-500">
             <strong > <p class="textoquiz"> Bajar de peso disminuyendo % de grasa</p></strong>
           </div>
         </div><br>

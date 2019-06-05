@@ -16448,9 +16448,7 @@ div[class='el-select'] {
 }
 
 .steak {
-  float: right;
   width: 42rem;
-  margin-right: 3rem;
   height: 30rem;
 }
 
@@ -17021,6 +17019,7 @@ body {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+  height: 30rem;
 }
 
 #root-content {
@@ -17057,13 +17056,13 @@ body {
 
 .text-link {
   color: #fff;
+  font-weight: bold;
 }
 
 .papayalogofooter {
   height: 220px;
   width: 200px;
   margin-top: 15rem;
-  margin-left: 8rem;
 }
 
 .menu-footer {
@@ -17083,7 +17082,6 @@ body {
 .sizeIcons {
   widows: 35px;
   height: 35px;
-  margin-left: 3rem !important;
 }
 
 .hashtag-papaya {
@@ -17126,98 +17124,29 @@ body {
   margin-left: 26rem;
 }
 
-@media (max-width: 576px) {
+.menufooter {
+  padding-top: 16em;
+}
+
+@media screen and (max-width: 375px) {
   .landing-footer {
-    height: 28rem;
-    width: 36rem;
+    background-color: #FF9D00;
+    height: 11rem;
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 375px) {
   .papayalogofooter {
     height: 100px;
     width: 100px;
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-left: 1rem;
   }
 }
 
-@media (max-width: 576px) {
-  .menu-footer {
-    margin-left: 8rem;
-    padding-top: 12rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .text-email {
-    padding-left: 12rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .line-footer {
-    margin-left: 0px;
-    color: transparent;
-  }
-}
-
-@media (max-width: 576px) {
-  .terminos {
-    margin-left: 5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .rights-footer {
-    margin-left: 9rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .landing-footer {
-    height: 28rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .papayalogofooter {
-    height: 100px;
-    width: 100px;
-    margin-top: 8rem;
-    margin-left: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .menu-footer {
-    margin-left: 8rem;
-    padding-top: 12rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .text-email {
-    padding-left: 12rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .line-footer {
-    margin-left: 0px;
-    color: transparent;
-  }
-}
-
-@media (max-width: 768px) {
-  .terminos {
-    margin-left: 5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .rights-footer {
-    margin-left: 9rem;
+@media screen and (max-width: 375px) {
+  .menufooter {
+    padding-top: 0em;
   }
 }
 

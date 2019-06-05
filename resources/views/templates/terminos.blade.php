@@ -13,7 +13,7 @@
 @endsection
 
 @section('title')
-Nosotros
+Términos y condiciones
 @endsection
 
 @section('css')
@@ -27,8 +27,8 @@ Nosotros
 
   <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-12 col-xl-6">
-      <strong style="font-size: 5vh;">El mejor plan alimenticio</strong>
-      <strong style="font-size: 5vh;">100% hecho para ti</strong> <br>
+      <strong style="font-size: 5vh;">Términos y Condiciones</strong>
+      <!-- <strong style="font-size: 5vh;">100% hecho para ti</strong> <br> -->
         <strong class="us-title">Misión</strong>
         <p>
           Papaya fit ofrece la mejor experiencia de bienestar a cada individuo brindando planes de alimentación
@@ -66,10 +66,10 @@ Nosotros
 
         </div>
     </div>
-    <div class="col-sm-9 col-md-6 col-lg-12 col-xl-6" style="">
-      <img src="/assets/Assets Papaya Fit/fotos-comidas/fotos papaya fit/hotcakes 1.jpg" alt="" class="img-fluid">
+    <!-- <div class="col-sm-9 col-md-6 col-lg-12 col-xl-6" style=""> -->
+      <!-- <img src="/assets/Assets Papaya Fit/fotos-comidas/fotos papaya fit/hotcakes 1.jpg" alt="" class="img-fluid"> -->
       <!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. -->
-    </div>
+    <!-- </div> -->
   </div>
 </div>
 

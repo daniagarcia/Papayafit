@@ -86,6 +86,9 @@ Route::get('/papayafit', function(){
 Route::get('/home2', function(){
     return view('templates.home2');
 });
+Route::get('/terminos', function(){
+    return view('templates.terminos');
+});
 // Route::get('/pdf', 'PdfController@invoice');
 Route::get('/pdfcot','PdfController@showpdf');	
 Route::get('pdf', 'PdfController@invoice');
